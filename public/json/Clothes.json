@@ -1,46 +1,46 @@
 {
     "JUSTFORYOU": [
-        {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "/ao/aocn1.png", "price": "450"},
-        {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "/ao/aocn2.png", "price": "470"},
-        {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "/ao/aocn3.png", "price": "490"},
-        {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "/ao/aocn4.png", "price": "510"},
-        {"id": "Gucci_Clothes1", "name": "Gucci Urban Jacket", "image": "/ao/aogc1.png", "price": "350"},
-        {"id": "Gucci_Clothes2", "name": "Gucci Classic Suit", "image": "/ao/aogc2.png", "price": "370"},
-        {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "/ao/aogc3.png", "price": "390"},
-        {"id": "Gucci_Clothes4", "name": "Gucci Runway Coat", "image": "/ao/aogc4.png", "price": "410"},
-        {"id": "Hermes_Clothes1", "name": "Hermes Beachwear", "image": "/ao/aohm1.png", "price": "550"},
-        {"id": "Hermes_Clothes2", "name": "Hermes Formal Attire", "image": "/ao/aohm2.png", "price": "570"},
-        {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "/ao/aohm3.png", "price": "590"},
-        {"id": "Hermes_Clothes4", "name": "Hermes Oasis Gown", "image": "/ao/aohm4.png", "price": "600"}
+        {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "./ao/aocn1.png", "price": "450"},
+        {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "./ao/aocn2.png", "price": "470"},
+        {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "./ao/aocn3.png", "price": "490"},
+        {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "./ao/aocn4.png", "price": "510"},
+        {"id": "Gucci_Clothes1", "name": "Gucci Urban Jacket", "image": "./ao/aogc1.png", "price": "350"},
+        {"id": "Gucci_Clothes2", "name": "Gucci Classic Suit", "image": "./ao/aogc2.png", "price": "370"},
+        {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "./ao/aogc3.png", "price": "390"},
+        {"id": "Gucci_Clothes4", "name": "Gucci Runway Coat", "image": "./ao/aogc4.png", "price": "410"},
+        {"id": "Hermes_Clothes1", "name": "Hermes Beachwear", "image": "./ao/aohm1.png", "price": "550"},
+        {"id": "Hermes_Clothes2", "name": "Hermes Formal Attire", "image": "./ao/aohm2.png", "price": "570"},
+        {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "./ao/aohm3.png", "price": "590"},
+        {"id": "Hermes_Clothes4", "name": "Hermes Oasis Gown", "image": "./ao/aohm4.png", "price": "600"}
     ],
     "Gucci": [
-        {"id": "Gucci_Clothes1", "name": "Gucci Urban Jacket", "image": "/ao/aogc1.png", "price": "350"},
-        {"id": "Gucci_Clothes2", "name": "Gucci Classic Suit", "image": "/ao/aogc2.png", "price": "370"},
-        {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "/ao/aogc3.png", "price": "390"},
-        {"id": "Gucci_Clothes4", "name": "Gucci Runway Coat", "image": "/ao/aogc4.png", "price": "410"},
-        {"id": "Gucci_Clothes5", "name": "Gucci Trendy Blazer", "image": "/ao/aogc5.png", "price": "360"},
-        {"id": "Gucci_Clothes6", "name": "Gucci Night Outfit", "image": "/ao/aogc6.png", "price": "380"},
-        {"id": "Gucci_Clothes7", "name": "Gucci Leisure Wear", "image": "/ao/aogc7.png", "price": "400"},
-        {"id": "Gucci_Clothes8", "name": "Gucci Signature Suit", "image": "/ao/aogc8.png", "price": "420"}
+        {"id": "Gucci_Clothes1", "name": "Gucci Urban Jacket", "image": "./ao/aogc1.png", "price": "350"},
+        {"id": "Gucci_Clothes2", "name": "Gucci Classic Suit", "image": "./ao/aogc2.png", "price": "370"},
+        {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "./ao/aogc3.png", "price": "390"},
+        {"id": "Gucci_Clothes4", "name": "Gucci Runway Coat", "image": "./ao/aogc4.png", "price": "410"},
+        {"id": "Gucci_Clothes5", "name": "Gucci Trendy Blazer", "image": "./ao/aogc5.png", "price": "360"},
+        {"id": "Gucci_Clothes6", "name": "Gucci Night Outfit", "image": "./ao/aogc6.png", "price": "380"},
+        {"id": "Gucci_Clothes7", "name": "Gucci Leisure Wear", "image": "./ao/aogc7.png", "price": "400"},
+        {"id": "Gucci_Clothes8", "name": "Gucci Signature Suit", "image": "./ao/aogc8.png", "price": "420"}
     ],
     "Chanel": [
-        {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "/ao/aocn1.png", "price": "450"},
-        {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "/ao/aocn2.png", "price": "470"},
-        {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "/ao/aocn3.png", "price": "490"},
-        {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "/ao/aocn4.png", "price": "510"},
-        {"id": "Chanel_Clothes5", "name": "Chanel Parisian Look", "image": "/ao/aocn5.png", "price": "520"},
-        {"id": "Chanel_Clothes6", "name": "Chanel Spring Collection", "image": "/ao/aocn6.png", "price": "540"},
-        {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "/ao/aocn7.png", "price": "560"},
-        {"id": "Chanel_Clothes8", "name": "Chanel Modern Elegance", "image": "/ao/aocn8.png", "price": "580"}
+        {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "./ao/aocn1.png", "price": "450"},
+        {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "./ao/aocn2.png", "price": "470"},
+        {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "./ao/aocn3.png", "price": "490"},
+        {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "./ao/aocn4.png", "price": "510"},
+        {"id": "Chanel_Clothes5", "name": "Chanel Parisian Look", "image": "./ao/aocn5.png", "price": "520"},
+        {"id": "Chanel_Clothes6", "name": "Chanel Spring Collection", "image": "./ao/aocn6.png", "price": "540"},
+        {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "./ao/aocn7.png", "price": "560"},
+        {"id": "Chanel_Clothes8", "name": "Chanel Modern Elegance", "image": "./ao/aocn8.png", "price": "580"}
     ],
     "Hermes": [
-        {"id": "Hermes_Clothes1", "name": "Hermes Beachwear", "image": "/ao/aohm1.png", "price": "550"},
-        {"id": "Hermes_Clothes2", "name": "Hermes Formal Attire", "image": "/ao/aohm2.png", "price": "570"},
-        {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "/ao/aohm3.png", "price": "590"},
-        {"id": "Hermes_Clothes4", "name": "Hermes Oasis Gown", "image": "/ao/aohm4.png", "price": "600"},
-        {"id": "Hermes_Clothes5", "name": "Hermes Stylish Top", "image": "/ao/aohm5.png", "price": "620"},
-        {"id": "Hermes_Clothes6", "name": "Hermes Luxury Coat", "image": "/ao/aohm6.png", "price": "640"},
-        {"id": "Hermes_Clothes7", "name": "Hermes Trendsetter", "image": "/ao/aohm7.png", "price": "660"},
-        {"id": "Hermes_Clothes8", "name": "Hermes Exquisite Dress", "image": "/ao/aohm8.png", "price": "680"}
+        {"id": "Hermes_Clothes1", "name": "Hermes Beachwear", "image": "./ao/aohm1.png", "price": "550"},
+        {"id": "Hermes_Clothes2", "name": "Hermes Formal Attire", "image": "./ao/aohm2.png", "price": "570"},
+        {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "./ao/aohm3.png", "price": "590"},
+        {"id": "Hermes_Clothes4", "name": "Hermes Oasis Gown", "image": "./ao/aohm4.png", "price": "600"},
+        {"id": "Hermes_Clothes5", "name": "Hermes Stylish Top", "image": "./ao/aohm5.png", "price": "620"},
+        {"id": "Hermes_Clothes6", "name": "Hermes Luxury Coat", "image": "./ao/aohm6.png", "price": "640"},
+        {"id": "Hermes_Clothes7", "name": "Hermes Trendsetter", "image": "./ao/aohm7.png", "price": "660"},
+        {"id": "Hermes_Clothes8", "name": "Hermes Exquisite Dress", "image": "./ao/aohm8.png", "price": "680"}
     ]
 }

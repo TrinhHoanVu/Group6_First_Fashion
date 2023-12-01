@@ -30,38 +30,38 @@ function App() {
   const [hermesProduct, setHermesProduct] = useState({});
 
   useEffect(() => {
-    fetch('/json/Shoes.json')
+    fetch('./json/Shoes.json')
       .then(response => response.json())
       .then(data => setShoesDroduct(data));
   }, []);
 
   useEffect(() => {
-    fetch('/json/HermesProduct.json')
+    fetch('./json/HermesProduct.json')
       .then(response => response.json())
       .then(data => setHermesProduct(data));
   }, []);
 
 
   useEffect(() => {
-    fetch('/json/Clothes.json')
+    fetch('./json/Clothes.json')
       .then(response => response.json())
       .then(data => setClothesProduct(data));
   }, []);
 
   useEffect(() => {
-    fetch('/json/Perfume.json')
+    fetch('./json/Perfume.json')
       .then(response => response.json())
       .then(data => setPerfumeProduct(data));
   }, []);
 
   useEffect(() => {
-    fetch('/json/ChanelProducts.json')
+    fetch('./json/ChanelProducts.json')
       .then(response => response.json())
       .then(data => setChanelProduct(data));
   }, []);
 
   useEffect(() => {
-    fetch('/json/GucciProducts.json')
+    fetch('./json/GucciProducts.json')
       .then(response => response.json())
       .then(data => setGucciProduct(data));
   }, []);
@@ -80,7 +80,7 @@ function App() {
 
   const [allProducts, setAllProducts] = useState({})
   useEffect(() => {
-    fetch('/json/AllProducts.json')
+    fetch('./json/AllProducts.json')
       .then(response => response.json())
       .then(data => setAllProducts(data));
   }, []);

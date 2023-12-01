@@ -1,43 +1,43 @@
 {
     "JUSTFORYOU": [
-      {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "/giay/gcn1.png", "price": "450"},
-      {"id": "Chanel_Shoes6", "name": "Chanel Espadrilles", "image": "/giay/gcn6.png", "price": "540"},
-      {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "/ao/aocn3.png", "price": "490"},
-      {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "/ao/aocn7.png", "price": "560"},
-      {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "/sanpham/cn2.png", "price": "240"},
-      {"id": "Chanel_Perfume6", "name": "Chanel Allure Homme Sport Eau de Toilette", "image": "/sanpham/cn3.png", "price": "225"},
-      {"id": "Chanel_Shoes8", "name": "Chanel Loafers", "image": "/giay/gcn8.png", "price": "580"},
-      {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "/ao/aocn4.png", "price": "510"}
+      {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "./giay/gcn1.png", "price": "450"},
+      {"id": "Chanel_Shoes6", "name": "Chanel Espadrilles", "image": "./giay/gcn6.png", "price": "540"},
+      {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "./ao/aocn3.png", "price": "490"},
+      {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "./ao/aocn7.png", "price": "560"},
+      {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "./sanpham/cn2.png", "price": "240"},
+      {"id": "Chanel_Perfume6", "name": "Chanel Allure Homme Sport Eau de Toilette", "image": "./sanpham/cn3.png", "price": "225"},
+      {"id": "Chanel_Shoes8", "name": "Chanel Loafers", "image": "./giay/gcn8.png", "price": "580"},
+      {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "./ao/aocn4.png", "price": "510"}
     ],
     "Shoes": [
-      {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "/giay/gcn1.png", "price": "450"},
-      {"id": "Chanel_Shoes2", "name": "Chanel Boy Shoes", "image": "/giay/gcn2.png", "price": "470"},
-      {"id": "Chanel_Shoes3", "name": "Chanel Gabrielle Shoes", "image": "/giay/gcn3.png", "price": "490"},
-      {"id": "Chanel_Shoes4", "name": "Chanel 19 Shoes", "image": "/giay/gcn4.png", "price": "510"},
-      {"id": "Chanel_Shoes5", "name": "Chanel Slingback Shoes", "image": "/giay/gcn5.png", "price": "520"},
-      {"id": "Chanel_Shoes6", "name": "Chanel Espadrilles", "image": "/giay/gcn6.png", "price": "540"},
-      {"id": "Chanel_Shoes7", "name": "Chanel Dad Sandals", "image": "/giay/gcn7.png", "price": "560"},
-      {"id": "Chanel_Shoes8", "name": "Chanel Loafers", "image": "/giay/gcn8.png", "price": "580"}
+      {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "./giay/gcn1.png", "price": "450"},
+      {"id": "Chanel_Shoes2", "name": "Chanel Boy Shoes", "image": "./giay/gcn2.png", "price": "470"},
+      {"id": "Chanel_Shoes3", "name": "Chanel Gabrielle Shoes", "image": "./giay/gcn3.png", "price": "490"},
+      {"id": "Chanel_Shoes4", "name": "Chanel 19 Shoes", "image": "./giay/gcn4.png", "price": "510"},
+      {"id": "Chanel_Shoes5", "name": "Chanel Slingback Shoes", "image": "./giay/gcn5.png", "price": "520"},
+      {"id": "Chanel_Shoes6", "name": "Chanel Espadrilles", "image": "./giay/gcn6.png", "price": "540"},
+      {"id": "Chanel_Shoes7", "name": "Chanel Dad Sandals", "image": "./giay/gcn7.png", "price": "560"},
+      {"id": "Chanel_Shoes8", "name": "Chanel Loafers", "image": "./giay/gcn8.png", "price": "580"}
     ],
     "Clothes": [
-      {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "/ao/aocn1.png", "price": "450"},
-      {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "/ao/aocn2.png", "price": "470"},
-      {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "/ao/aocn3.png", "price": "490"},
-      {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "/ao/aocn4.png", "price": "510"},
-      {"id": "Chanel_Clothes5", "name": "Chanel Parisian Look", "image": "/ao/aocn5.png", "price": "520"},
-      {"id": "Chanel_Clothes6", "name": "Chanel Spring Collection", "image": "/ao/aocn6.png", "price": "540"},
-      {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "/ao/aocn7.png", "price": "560"},
-      {"id": "Chanel_Clothes8", "name": "Chanel Modern Elegance", "image": "/ao/aocn8.png", "price": "580"}
+      {"id": "Chanel_Clothes1", "name": "Chanel Elegance Gown", "image": "./ao/aocn1.png", "price": "450"},
+      {"id": "Chanel_Clothes2", "name": "Chanel Vintage Dress", "image": "./ao/aocn2.png", "price": "470"},
+      {"id": "Chanel_Clothes3", "name": "Chanel Casual Chic", "image": "./ao/aocn3.png", "price": "490"},
+      {"id": "Chanel_Clothes4", "name": "Chanel Evening Silk", "image": "./ao/aocn4.png", "price": "510"},
+      {"id": "Chanel_Clothes5", "name": "Chanel Parisian Look", "image": "./ao/aocn5.png", "price": "520"},
+      {"id": "Chanel_Clothes6", "name": "Chanel Spring Collection", "image": "./ao/aocn6.png", "price": "540"},
+      {"id": "Chanel_Clothes7", "name": "Chanel Classic Suit", "image": "./ao/aocn7.png", "price": "560"},
+      {"id": "Chanel_Clothes8", "name": "Chanel Modern Elegance", "image": "./ao/aocn8.png", "price": "580"}
     ],
     "Perfume": [
-      {"id": "Chanel_Perfume1", "name": "Chanel Coco Mademoiselle Eau de Parfum", "image": "/sanpham/cn1.png", "price": "220"},
-      {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "/sanpham/cn2.png", "price": "240"},
-      {"id": "Chanel_Perfume3", "name": "Chanel No.5 Eau de Parfum", "image": "/sanpham/cn3.png", "price": "230"},
-      {"id": "Chanel_Perfume4", "name": "Chanel Gabrielle Eau de Parfum", "image": "/sanpham/cn4.png", "price": "250"},
-      {"id": "Chanel_Perfume5", "name": "Chanel Bleu de Chanel Eau de Parfum", "image": "/sanpham/cn5.png", "price": "260"},
-      {"id": "Chanel_Perfume6", "name": "Chanel Allure Homme Sport Eau de Toilette", "image": "/sanpham/cn3.png", "price": "225"},
-      {"id": "Chanel_Perfume7", "name": "Chanel Coco Noir Eau de Parfum", "image": "/sanpham/cn2.png", "price": "235"},
-      {"id": "Chanel_Perfume8", "name": "Chanel Chance Eau Vive Eau de Toilette", "image": "/sanpham/cn5.png", "price": "245"}
+      {"id": "Chanel_Perfume1", "name": "Chanel Coco Mademoiselle Eau de Parfum", "image": "./sanpham/cn1.png", "price": "220"},
+      {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "./sanpham/cn2.png", "price": "240"},
+      {"id": "Chanel_Perfume3", "name": "Chanel No.5 Eau de Parfum", "image": "./sanpham/cn3.png", "price": "230"},
+      {"id": "Chanel_Perfume4", "name": "Chanel Gabrielle Eau de Parfum", "image": "./sanpham/cn4.png", "price": "250"},
+      {"id": "Chanel_Perfume5", "name": "Chanel Bleu de Chanel Eau de Parfum", "image": "./sanpham/cn5.png", "price": "260"},
+      {"id": "Chanel_Perfume6", "name": "Chanel Allure Homme Sport Eau de Toilette", "image": "./sanpham/cn3.png", "price": "225"},
+      {"id": "Chanel_Perfume7", "name": "Chanel Coco Noir Eau de Parfum", "image": "./sanpham/cn2.png", "price": "235"},
+      {"id": "Chanel_Perfume8", "name": "Chanel Chance Eau Vive Eau de Toilette", "image": "./sanpham/cn5.png", "price": "245"}
     ]
   }
   

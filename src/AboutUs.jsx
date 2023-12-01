@@ -6,7 +6,7 @@ function AboutUs(clicked) {
 
             <div className={`aboutus-div  ${clicked ? 'clicked' : ''}`}>
                 <div style={{ width: '61%', height: '300px', overflow: 'hidden' }}>
-                    <img src="/image/aboutus.jpg" alt="" className={`aboutus-img`} />
+                    <img src="./image/aboutus.jpg" alt="" className={`aboutus-img`} />
                 </div>
                 <div style={{ width: '40%' }}>
                     <h1 className={`aboutus-title ${clicked ? 'clicked' : ''}`}>ABOUT US</h1>
@@ -30,14 +30,14 @@ function AboutUs(clicked) {
                     </div>
                 </div>
                 <div style={{ width: '61%', height: '300px', overflow: 'hidden' }}>
-                    <img src="/image/vision.jpg" alt="" className={`vison-img`} />
+                    <img src="./image/vision.jpg" alt="" className={`vison-img`} />
                 </div>
             </div>
             <br /><br /><br />
             <div className={`misson-div`}>
 
                 <div style={{ height: '565px', overflow: 'hidden' }}>
-                    <img src="/image/mission.jpg" alt="" />
+                    <img src="./image/mission.jpg" alt="" />
                 </div>
                 <h1 className={`mission-title ${clicked ? 'clicked' : ''}`}>MISSION</h1>
                 <div style={{width:'55%', margin:'0 auto'}}>

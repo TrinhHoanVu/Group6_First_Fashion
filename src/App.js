@@ -88,13 +88,13 @@ function App() {
     setShowLoginForm(true);
   }
 
-  // const [allProducts, setAllProducts] = useState({})
-  // useEffect(() => {
-  //   fetch('./json/AllProducts.json')
-  //     .then(response => response.json())
-  //     .then(data => setAllProducts(data));
-  // }, []);
-  // console.log(allProducts)
+  const [allProducts, setAllProducts] = useState({})
+  useEffect(() => {
+    fetch('./json/AllProducts.json')
+      .then(response => response.json())
+      .then(data => setAllProducts(data));
+  }, []);
+  console.log(allProducts)
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (products) => {
     const exits = cartItems.find((x) => x.id === products.id)
@@ -181,7 +181,7 @@ function App() {
           <Route path='/account' element={<Account showLoginForm={showLoginForm} />}></Route>
           <Route path='/cart' element={<ShoppingBag cartItems={cartItems} onUpdateCartQuantity={updateCartQuantity} onRemove={onRemove} setGiftMessageOnServer={setGiftMessageOnServer} />}></Route>
           <Route path='/payment' element={<Payment cartItems={cartItems} giftMessage={giftMessage} />}></Route>
-          {/* <Route path='/:id' element={<ProductDetail onAdd={onAdd} products={allProducts} />}></Route> */}
+          <Route path='/:id' element={<ProductDetail onAdd={onAdd} products={allProducts} />}></Route>
           <Route path='/aboutus' element={<AboutUs />}></Route>
         </Routes>
       </div>

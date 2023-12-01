@@ -29,42 +29,46 @@ function App() {
   const [gucciProduct, setGucciProduct] = useState({});
   const [hermesProduct, setHermesProduct] = useState({});
 
+  console.log("test")
   useEffect(() => {
     fetch('./json/Shoes.json')
       .then(response => response.json())
       .then(data => setShoesDroduct(data));
   }, []);
 
-  useEffect(() => {
-    fetch('./json/HermesProduct.json')
-      .then(response => response.json())
-      .then(data => setHermesProduct(data));
-  }, []);
+
+  console.log('test2')
+  console.log(shoesProduct)
+  // useEffect(() => {
+  //   fetch('./json/HermesProduct.json')
+  //     .then(response => response.json())
+  //     .then(data => setHermesProduct(data));
+  // }, []);
 
 
-  useEffect(() => {
-    fetch('./json/Clothes.json')
-      .then(response => response.json())
-      .then(data => setClothesProduct(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch('./json/Clothes.json')
+  //     .then(response => response.json())
+  //     .then(data => setClothesProduct(data));
+  // }, []);
 
-  useEffect(() => {
-    fetch('./json/Perfume.json')
-      .then(response => response.json())
-      .then(data => setPerfumeProduct(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch('./json/Perfume.json')
+  //     .then(response => response.json())
+  //     .then(data => setPerfumeProduct(data));
+  // }, []);
 
-  useEffect(() => {
-    fetch('./json/ChanelProducts.json')
-      .then(response => response.json())
-      .then(data => setChanelProduct(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch('./json/ChanelProducts.json')
+  //     .then(response => response.json())
+  //     .then(data => setChanelProduct(data));
+  // }, []);
 
-  useEffect(() => {
-    fetch('./json/GucciProducts.json')
-      .then(response => response.json())
-      .then(data => setGucciProduct(data));
-  }, []);
+  // useEffect(() => {
+  //   fetch('./json/GucciProducts.json')
+  //     .then(response => response.json())
+  //     .then(data => setGucciProduct(data));
+  // }, []);
 
   const handleButtonClick = () => {
     setClicked(!clicked);
@@ -78,13 +82,13 @@ function App() {
     setShowLoginForm(true);
   }
 
-  const [allProducts, setAllProducts] = useState({})
-  useEffect(() => {
-    fetch('./json/AllProducts.json')
-      .then(response => response.json())
-      .then(data => setAllProducts(data));
-  }, []);
-  console.log(allProducts)
+  // const [allProducts, setAllProducts] = useState({})
+  // useEffect(() => {
+  //   fetch('./json/AllProducts.json')
+  //     .then(response => response.json())
+  //     .then(data => setAllProducts(data));
+  // }, []);
+  // console.log(allProducts)
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (products) => {
     const exits = cartItems.find((x) => x.id === products.id)
@@ -171,7 +175,7 @@ function App() {
           <Route path='/account' element={<Account showLoginForm={showLoginForm} />}></Route>
           <Route path='/cart' element={<ShoppingBag cartItems={cartItems} onUpdateCartQuantity={updateCartQuantity} onRemove={onRemove} setGiftMessageOnServer={setGiftMessageOnServer} />}></Route>
           <Route path='/payment' element={<Payment cartItems={cartItems} giftMessage={giftMessage} />}></Route>
-          <Route path='/:id' element={<ProductDetail onAdd={onAdd} products={allProducts} />}></Route>
+          {/* <Route path='/:id' element={<ProductDetail onAdd={onAdd} products={allProducts} />}></Route> */}
           <Route path='/aboutus' element={<AboutUs />}></Route>
         </Routes>
       </div>

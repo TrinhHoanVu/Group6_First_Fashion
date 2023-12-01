@@ -50,7 +50,7 @@ function ProductDetail({ onAdd, clicked }) {
                             <span style={{ fontSize: '100%', fontFamily: 'lato-regular' }}>Ref. {item.id}</span> <br /> <br />
                             <span style={{ fontSize: '150%' }}>${item.price}</span>
                             <hr className={`productdetail-hr2 ${clicked ? 'clicked' : ''}`} />
-                            <span style={{ fontFamily: 'lato-regular' }}>SIZE <br />1 Piece </span> <br /><br />
+                            <button className="download" onClick={() => { downloadFileAtURL(PDF_FILE_URL) }}><PiDownloadSimple /> Download description</button> <br /><br />
                             <button className={`productdetail-button-addtobag ${clicked ? 'clicked' : ''}`} onClick={handleAddToBag}>ADD TO BAG</button>
                         </div>
                     </td>
@@ -58,7 +58,7 @@ function ProductDetail({ onAdd, clicked }) {
             </table>
             <br /><br /><br /><br />
             <div className={`product-information-table2 ${clicked ? 'clicked' : ''}`}>
-                <span style={{ fontFamily: 'lato-bold', fontSize: '200%', letterSpacing: '10px' }}>PRODUCT INFORMATION</span>
+
                 <div className={`productdetail-informtaion-title  ${clicked ? 'clicked' : ''}`}>
                     <br /><br /><br />
                     <div>
@@ -83,10 +83,9 @@ function ProductDetail({ onAdd, clicked }) {
                             Please contact our Client Care Representative Online or call 800 321 1500, Mon to Fri excluding Public Holidays, 1000-1900 and we will arrange for our carrier to collect the products from you. <br /> <br />
                         </div>)}
                     </div>
-                    <button className="download" onClick={() => { downloadFileAtURL(PDF_FILE_URL) }}><PiDownloadSimple /> Download description</button>
                 </div>
             </div>
-
+            <br /><br /><br /><br /><br />
         </div>
     );
 }

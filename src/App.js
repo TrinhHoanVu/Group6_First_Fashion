@@ -39,36 +39,36 @@ function App() {
 
   console.log('test2')
   console.log(shoesProduct)
-  // useEffect(() => {
-  //   fetch('./json/HermesProduct.json')
-  //     .then(response => response.json())
-  //     .then(data => setHermesProduct(data));
-  // }, []);
+  useEffect(() => {
+    fetch('./json/HermesProduct.json')
+      .then(response => response.json())
+      .then(data => setHermesProduct(data));
+  }, []);
 
 
-  // useEffect(() => {
-  //   fetch('./json/Clothes.json')
-  //     .then(response => response.json())
-  //     .then(data => setClothesProduct(data));
-  // }, []);
+  useEffect(() => {
+    fetch('./json/Clothes.json')
+      .then(response => response.json())
+      .then(data => setClothesProduct(data));
+  }, []);
 
-  // useEffect(() => {
-  //   fetch('./json/Perfume.json')
-  //     .then(response => response.json())
-  //     .then(data => setPerfumeProduct(data));
-  // }, []);
+  useEffect(() => {
+    fetch('./json/Perfume.json')
+      .then(response => response.json())
+      .then(data => setPerfumeProduct(data));
+  }, []);
 
-  // useEffect(() => {
-  //   fetch('./json/ChanelProducts.json')
-  //     .then(response => response.json())
-  //     .then(data => setChanelProduct(data));
-  // }, []);
+  useEffect(() => {
+    fetch('./json/ChanelProducts.json')
+      .then(response => response.json())
+      .then(data => setChanelProduct(data));
+  }, []);
 
-  // useEffect(() => {
-  //   fetch('./json/GucciProducts.json')
-  //     .then(response => response.json())
-  //     .then(data => setGucciProduct(data));
-  // }, []);
+  useEffect(() => {
+    fetch('./json/GucciProducts.json')
+      .then(response => response.json())
+      .then(data => setGucciProduct(data));
+  }, []);
 
   const handleButtonClick = () => {
     setClicked(!clicked);

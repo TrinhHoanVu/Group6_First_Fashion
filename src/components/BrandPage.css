@@ -1,0 +1,14 @@
+/* CSS file for BrandPage component */
+
+.brand-products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px; /* Tạo khoảng cách giữa các sản phẩm */
+  justify-content: center; /* Căn giữa các sản phẩm */
+}
+
+.product-item {
+  width: 200px; /* hoặc bất kỳ kích thước nào bạn muốn */
+  margin: 0 auto; /* Căn giữa mỗi sản phẩm nếu cần */
+  /* Thêm các quy tắc CSS khác cho kiểu dáng sản phẩm */
+}

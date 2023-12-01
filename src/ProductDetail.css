@@ -1,0 +1,95 @@
+.productdetail-table-item {
+    width: 80%;
+    margin: auto;
+
+}
+
+.contrast-mode .productdetail-table-item>* {
+    color: black;
+}
+
+.productdetail-table-item>* {
+    color: white;
+    font-family: 'lato-regular';
+}
+
+.productdetail-img {
+    width: 80%;
+    max-width: 70%;
+}
+
+.productdetail-name {
+    font-family: 'lato-bold';
+
+}
+
+.productdetail-hr {
+    border: 3px solid white;
+
+}
+
+.contrast-mode .productdetail-hr {
+    border: 3px solid black;
+}
+
+.productdetail-hr2 {
+    border: 1px solid white;
+}
+
+.product-information-table2{
+    color: white;
+}
+
+.contrast-mode .product-information-table2{
+    color: black;
+}
+
+.contrast-mode .productdetail-hr2 {
+    border: 1px solid black;
+}
+
+.productdetail-button-addtobag {
+    width: 100%;
+    height: 50px;
+    font-family: 'lato-bold';
+    font-size: 110%;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+.contrast-mode .productdetail-button-addtobag {
+    color: white;
+    background-color: black;
+}
+
+.productdetail-informtaion-title {
+    margin: 0 auto;
+    font-family: 'lato-regular';
+    width: 80%;
+    text-align: left;
+}
+
+.productdetail-deliveryandreturn {
+    text-align: left;
+}
+
+.productdetail-delivery-title {
+    border-bottom: 1px solid white;
+    height: 30px;
+    font-family: 'lato-bold';
+    display: flex;
+}
+.contrast-mode .productdetail-delivery-title{
+    border-bottom: 1px solid black;
+}
+
+.download {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
+
+.contrast-mode .download{
+    color: black;
+}

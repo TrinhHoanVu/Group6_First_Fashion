@@ -1,0 +1,210 @@
+.login-account-title {
+    font-family: 'couture';
+    color: white;
+    letter-spacing: 10px;
+}
+
+.login-register {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+
+}
+
+.login-register-column2 {
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    /* Add cursor pointer to indicate clickable element */
+}
+
+.login-register-column {
+    width: 300px;
+    text-align: center;
+    cursor: pointer;
+    /* Add cursor pointer to indicate clickable element */
+
+}
+
+.login-register-column:focus,
+.login-register-column.active {
+    border-bottom: 3px white solid;
+}
+
+.contrast-mode .login-register-column:focus,
+.contrast-mode .login-register-column.active {
+    border-bottom: 3px black solid;
+}
+
+.login-register-column2:focus,
+.login-register-column2.active {
+    border-bottom: 3px white solid;
+}
+
+.contrast-mode .login-register-column2:focus,
+.contrast-mode .login-register-column2.active {
+    border-bottom: 3px black solid;
+}
+
+.login-register-column:focus {
+    text-decoration: underline;
+}
+
+.login-title {
+    font-family: 'couture';
+    color: white;
+    font-size: 120%;
+}
+
+.login-bodytext {
+    font-family: 'lato-regular';
+    color: white;
+    font-size: 80%;
+}
+
+.login-title-box {
+    text-align: center;
+}
+
+.login-email-box {
+    font-family: 'lato-regular';
+    width: 350px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login-email-box:focus {
+    font-family: 'lato-regular';
+    outline: none;
+    color: white;
+}
+
+.login-password-box {
+    font-family: 'lato-regular';
+    width: 350px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login-password-box:focus {
+    font-family: 'lato-regular';
+    outline: none;
+    color: white;
+}
+
+.login-submit {
+    font-family: 'couture';
+    width: 350px;
+    background-color: white;
+    color: black;
+    border-left: none;
+    border-top: none;
+}
+
+.login-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    /* Adjust as needed */
+    color: white;
+}
+
+.register-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-bodytext {
+    font-family: 'lato-regular';
+    width: 350px;
+    color: white;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+}
+
+.register-titles {
+    text-align: left;
+    color: white;
+}
+
+.register-select-titles {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.register-select-titles:focus {
+    outline: none;
+}
+
+.register-box {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.register-box:focus {
+    outline: none;
+}
+
+.login-policy {
+    color: white;
+}
+
+.register-password-validation {
+    text-align: left;
+    color: white;
+}
+
+.contrast-mode .login-account-title,
+.contrast-mode .login-register-column,
+.contrast-mode .login-register-column2 {
+    color: black;
+}
+
+.contrast-mode .register-titles {
+    color: black;
+}
+
+.contrast-mode .register-box,
+.contrast-mode .register-select-titles {
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+.contrast-mode .login-policy {
+    color: black;
+}
+
+.contrast-mode .register-bodytext {
+    color: black;
+}
+
+.register-alert {
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    font-family: 'lato-bold';
+    text-align: center;
+    border-radius: 2px;
+}

@@ -1,0 +1,85 @@
+/* ShowItemsInShoppingBag.css */
+
+.shoppingbag {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 100%;
+    text-align: left;
+}
+
+.name-product {
+    font-size: 100%;
+    font-family: 'couture';
+    vertical-align: text-top;
+}
+
+.showproduct {
+    font-family: 'lato-regular';
+    text-align: left;
+    margin-left: 30px;
+    /* Adjust margin as needed */
+}
+
+.img-div {
+    width: 20%;
+}
+
+.quantity-box {
+    width: auto;
+}
+
+.name-div {
+    width: 50%;
+    text-align: left;
+}
+
+.removebutton-on-shoppingbag {
+    background-color: transparent;
+    border: none;
+    font-size: 80%;
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.quantity-select-box {
+
+    border: none;
+    background-color: transparent;
+    width: 60px;
+    color: white;
+}
+
+.quantity-select-box:focus {
+    color: white;
+    background-color: black;
+    outline: none;
+}
+
+.contrast-mode .quantity-select-box {
+    background-color: transparent;
+    color: black;
+    outline: none;
+    border: none;
+}
+
+.contrast-mode .quantity-select-box:focus{
+    color: black;
+    background-color: white;
+    outline: none;
+    border: none;
+}
+
+.quantity-name-qty{
+    color: white;
+}
+
+.contrast-mode .quantity-name-qty{
+    color: gray;
+}

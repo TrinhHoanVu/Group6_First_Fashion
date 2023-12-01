@@ -1,0 +1,88 @@
+.delieverymethod-title {
+    width: 80%;
+    text-align: left;
+    color: white;
+}
+
+.contrast-mode .delieverymethod-title{
+    color: black;
+}
+
+.payment-table-all2 {
+    color: white;
+}
+.contrast-mode .payment-table-all2 {
+    color: black;
+}
+.payment-table-all {
+    background-color: black;
+}
+
+.contrast-mode .payment-table-all {
+    background-color: white;
+}
+
+.deliverymethod-editbutton {
+    background-color: transparent;
+    border: none;
+
+    margin-left: auto;
+}
+
+.contactus-title {
+    font-family: 'couture';
+}
+
+.deliverymethod-editbutton:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.shoppingbag-table-totalprice2 {
+    color: white;
+}
+
+.contrast-mode .shoppingbag-table-totalprice2 {
+    color: black;
+}
+.payment-ordersummary-table{
+    color: white;
+}
+
+.contrast-mode .payment-ordersummary-table{
+    color: black;
+}
+.payment-methods {
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+}
+
+.contrast-mode .payment-methods {
+    color: black;
+}
+
+.payment-methods-title {
+    font-family: 'lato-bold';
+    font-size: 150%;
+
+    letter-spacing: 3px;
+}
+
+.payment-methods-card {
+    display: flex;
+
+    font-size: 200%;
+    margin: 0 auto;
+    gap: 20px;
+    justify-content: center;
+}
+
+.payment-methods-secure {
+    font-family: 'lato-bold';
+}
+
+.payment-giftmessage {
+    margin-right: auto;
+
+}

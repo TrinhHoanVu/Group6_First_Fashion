@@ -1,0 +1,422 @@
+.App {
+  background-color: black;
+  text-align: center;
+
+}
+
+.back-to-top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  font-size: 50px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  filter: drop-shadow(3px 3px 1px rgba(0, 0, 0, 0.5))
+}
+
+.home-advanced-detail-button {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: transparent;
+  color: white;
+  font-size: 120%;
+}
+
+.home-advanced-badge {
+  background-color: red;
+  border: none;
+  color: yellow;
+  width: 1.5rem;
+}
+
+.home-advanced-button {
+  position: fixed;
+  top: 3%;
+  left: 70%;
+  z-index: 1000;
+  margin: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.logo {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.home-toolbar {
+  padding-top: 125px;
+}
+
+.home-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1;
+}
+
+.home-name-company {
+  padding-top: 20px;
+  font-family: 'couture';
+  color: white;
+  letter-spacing: 5px;
+}
+
+.home-nav {
+  height: 40px;
+  font-family: 'couture';
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: -40px;
+}
+
+.home-nav>* {
+  margin-top: -2%;
+  color: white;
+  text-decoration: none;
+}
+
+.home-line-nav {
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+
+
+.home-gucci-banner {
+  background-image: url('./image/home/guccibanner.jpg');
+  background-size: 100%;
+  background-position-y: center;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home-hermes-banner {
+  background-image: url('./image/home/hermesbanner2.jpg');
+  background-size: 100%;
+  background-position-y: center;
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.home-chanel-banner {
+  background-image: url('./image/home/chanelbanner2.jpg');
+  width: 100vw;
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.homepage-banner-title {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+
+.home-chanelbanner-title {
+  font-family: 'couture';
+  position: relative;
+  margin: auto;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 10px;
+}
+
+.home-chanelbanner-speech {
+  position: absolute;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  letter-spacing: 3px;
+  margin-top: 40px;
+}
+
+.contrast-mode .login-password-box:focus,
+.contrast-mode .login-email-box:focus{
+  color: black;
+}
+.contrast-mode .login-password-box,
+.contrast-mode .login-email-box{
+  color: black;
+}
+.home-navtool-hr {
+  height: 1px;
+  background-color: white;
+}
+
+.home-contact {
+  color: white;
+}
+
+.home-contact table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.homepage-contact-information3>td {
+  font-family: 'lato-regular';
+  text-align: left;
+  padding: 40px 0px;
+  vertical-align: top;
+}
+
+.homepage-contact-information {
+  font-family: 'lato-regular';
+  height: 100px;
+  width: 700px;
+}
+
+.hompage-contact-emailbutton {
+  font-family: 'lato-regular';
+  background-color: black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid white;
+  color: white;
+  transition: border-bottom 0.3s ease;
+}
+
+.hompage-contact-emailbutton:focus {
+  font-family: 'lato-regular';
+  border-bottom: 1px solid white;
+  /* Đổi độ dày và màu sắc khi focus */
+  outline: none;
+  color: white;
+  /* Loại bỏ viền xung quanh khi focus */
+}
+
+
+
+.home-mail-submit-button {
+  font-family: 'lato-regular';
+  background-color: black;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid white;
+  color: gray;
+}
+
+.home-gucci-banner::before,
+.home-hermes-banner::before,
+.home-chanel-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.home-seemore {
+  font-family: 'lato-regular';
+  position: absolute;
+  margin-top: 80px;
+  width: 7%;
+  height: 12%;
+  font-size: 110%;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+
+
+.home-venue {
+
+  margin: 2% auto;
+  color: white;
+}
+
+.home-venue-tr>* {
+  height: 10px;
+
+}
+
+.home-venue-detail {
+  font-family: 'lato-regular';
+  color: white;
+  text-align: left;
+}
+
+.home-social-page {
+  margin-left: 20px;
+}
+
+.home-footer-igicon {
+  color: white;
+  font-size: 290%;
+  background-color: transparent;
+}
+
+.home-footer-twicon {
+  color: white;
+  font-size: 290%;
+  background-color: transparent;
+}
+
+.home-footer-fbicon {
+  color: white;
+  font-size: 300%;
+  background-color: transparent;
+}
+
+.home-end {
+  color: white;
+}
+
+.home-copyright {
+  font-family: 'lato-regular';
+  color: white;
+}
+
+.home-logotext.clicked,
+.home-nav-name.clicked,
+.home.toolbar {
+  color: black;
+}
+
+.home-navbar.clicked {
+  background-color: white;
+}
+
+.home-line-nav.clicked {
+  background-color: black;
+}
+
+
+.contrast-mode .home-venue-detail,
+.contrast-mode .home-footer-icon,
+.contrast-mode .home-copyright,
+.contrast-mode .home-footer-fbicon,
+.contrast-mode .home-footer-twicon,
+.contrast-mode .home-footer-igicon,
+.contrast-mode .homepage-contact-information,
+.contrast-mode .homepage-contact-information2 {
+  color: black;
+  background-color: white;
+  /* Change to the desired color for contrast mode */
+}
+
+.contrast-mode {
+  background-color: white;
+}
+
+.contrast-mode .home-gucci-banner::before,
+.contrast-mode .home-hermes-banner::before,
+.contrast-mode .home-chanel-banner::before {
+  background-color: transparent;
+}
+
+.contrast-mode .home-mail-submit-button {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.contrast-mode .hompage-contact-emailbutton {
+  background-color: white;
+  border-bottom: 1px solid black;
+  color: black;
+}
+
+.home-advanced-detail-button {
+  cursor: pointer;
+}
+
+.login-email-box,
+.login-password-box {
+  color: white;
+}
+
+.contrast-mode .hompage-contact-emailbutton:focus,
+.contrast-mode .home-provacy,
+.contrast-mode .home-advanced-detail-button {
+  color: black;
+}
+
+.contrast-mode .login-title,
+.contrast-mode .login-bodytext,
+.contrast-mode .login-email-password-title,
+.contrast-mode .login-remember,
+.contrast-mode .login-policy {
+  color: black;
+}
+
+.contrast-mode .login-submit {
+  color: white;
+  border: none;
+  background-color: black;
+}
+
+.contrast-mode .contrastbutton-text {
+  color: black;
+}
+
+.contrast-mode .brand-button {
+  color: white;
+  background-color: black;
+}
+
+.contrast-mode .brand-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.contrast-mode .product-name,
+.contrast-mode .product-price {
+  color: black;
+}
+
+.contrast-mode .searching-box {
+  background-color: white;
+}
+
+.homepage-email-contact {
+  background-color: white;
+  width: 25%;
+  height: 25%;
+  position: absolute;
+  top: 37.5%;
+  left: 37.5%;
+  font-family: 'lato-bold';
+  text-align: center;
+  border-radius: 2px;
+}
+
+.contrast-mode .register-password-validation{
+  color: black;
+}
+
+.empty-text{
+  font-family: 'lato-regular';
+  color: white;
+  text-align: center;
+}
+
+.contrast-mode .empty-text{
+  color: black;
+}

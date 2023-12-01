@@ -1,0 +1,117 @@
+/* ProductCarousel.css */
+
+/* Các thuộc tính chung cho .product-carousel */
+.product-carousel {
+  margin: 20px 0;
+}
+
+/* Tiêu đề danh sách sản phẩm */
+.product-carousel h2 {
+  text-align: left;
+  padding-left: 20px;
+}
+
+/* Nút "See All" */
+.see-all-button {
+  text-align: right;
+  padding-right: 20px;
+  margin-top: -30px; /* Điều chỉnh giá trị này để phù hợp với bố cục của bạn */
+}
+
+.see-all-button button {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Hiệu ứng màu nền mượt mà */
+}
+
+.see-all-button button:hover {
+  background-color: #333;
+}
+
+/* Kiểu cho các mũi tên tùy chỉnh */
+.custom-slick-prev,
+.custom-slick-next {
+  z-index: 50;
+  opacity: 1;
+  height: 20px; /* Hoặc chiều cao tùy chỉnh */
+  width: 20px; /* Hoặc chiều rộng tùy chỉnh */
+  color: white; /* Hoặc màu tùy chỉnh */
+  background: white; /* Màu nền tùy chỉnh */
+  position: absolute; /* Để đặt vị trí */
+  top: 50%; /* Đưa mũi tên lên giữa */
+  transform: translateY(-50%); /* Để căn giữa dọc */
+  text-shadow: 1px 1px 2px black;
+}
+
+.custom-slick-prev {
+  left: -25px; /* Điều chỉnh theo nhu cầu */
+}
+
+.custom-slick-next {
+  right: -25px; /* Điều chỉnh theo nhu cầu */
+}
+
+/* Đảm bảo biểu tượng mũi tên có kích thước lớn và dễ nhận biết */
+.slick-prev:before,
+.slick-next:before {
+  font-size: 20px; /* Tăng kích thước để dễ nhận biết */
+  color: black; /* Thay đổi màu để chúng hiển thị rõ ràng hơn */
+}
+
+/* Kiểu cho nút "See All" */
+.see-all-link {
+  display: inline-block; /* hoặc 'block' nếu bạn muốn nó chiếm một dòng riêng */
+  margin-left: auto; /* Đẩy nút về phải */
+  padding: 8px 16px; /* Đệm cho nút */
+  border: 6px solid #fff; /* Viền nút */
+  border-radius: 15px; /* Bo góc */
+  background-color: black; /* Màu nền đen */
+  color: white; /* Màu chữ trắng */
+  text-decoration: none; /* Bỏ gạch chân cho liên kết */
+  font-weight: bold; /* Đặt chữ đậm */
+  cursor: pointer; /* Cho biết có thể click */
+  transition: background-color 0.3s ease; /* Chuyển đổi màu nền mượt mà */
+}
+
+.see-all-link:hover {
+  background-color: #e9d3d3; /* Màu nền khi hover */
+}
+
+/* Để căn giữa nút "See All" */
+.see-all-wrapper {
+  text-align: right; /* Đẩy nút về phía bên phải */
+  padding-right: 10px; /* Thêm padding để không sát cạnh */
+}
+
+/* CSS file */
+
+/* Kiểu cho tiêu đề thương hiệu */
+.brand-title {
+  color: white;
+  padding: 10px; /* Đệm xung quanh */
+  margin: 0 10px; /* Khoảng cách */
+  border-radius: 5px; /* Bo góc */
+  text-align: center; /* Căn giữa nội dung */
+  font-size: 200%;
+}
+
+.contrast-mode .brand-title{
+  color: black;
+}
+
+/* sau chỗ thêm */
+
+/* CSS file */
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.product-item {
+  animation: fadeIn 1s ease-out;
+  /* Các thuộc tính CSS khác... */
+}

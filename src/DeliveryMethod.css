@@ -1,0 +1,86 @@
+.delivery-table {
+    margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    font-family: 'lato-regular';
+    color: white;
+}
+
+.contrast-mode .delivery-table {
+    color: black;
+}
+
+.delieverymethod-title {
+    font-family: 'lato-bold';
+    font-size: 110%;
+
+}
+
+.delivery-hr {
+    border: 2px solid white;
+}
+
+.deliverymethod-firstname-input {
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.deliverymethod-lastname-input {
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.deliverymethod-venue-input {
+    width: 100%;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+.deliverymethod-firstname-input:focus,
+.deliverymethod-lastname-input:focus,
+.deliverymethod-venue-input:focus {
+    outline: none;
+    color: white;
+}
+
+.contrast-mode .deliverymethod-firstname-input,
+.contrast-mode .deliverymethod-lastname-input,
+.contrast-mode .deliverymethod-venue-input {
+
+    color: black;
+}
+
+.contrast-mode .deliverymethod-firstname-input:focus,
+.contrast-mode .deliverymethod-lastname-input:focus,
+.contrast-mode .deliverymethod-venue-input:focus {
+    outline: none;
+    color: black;
+}
+
+.deliverymethod-submitbutton {
+    font-family: 'lato-bold';
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 50px;
+    border: none;
+}
+
+.contrast-mode .deliverymethod-submitbutton{
+    background-color: black;
+    color: white;
+}
+.deliverymethod-firstname-input:active {
+    background-color: transparent;
+}

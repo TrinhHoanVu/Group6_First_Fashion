@@ -1,0 +1,44 @@
+.aboutus-page {
+    font-family: 'lato-regular';
+    color: white;
+    background-color: black;
+}
+
+.aboutus-img {
+    width: 120%;
+}
+
+.aboutus-title {
+    text-align: left;
+    font-family: 'couture';
+    margin-left: 20px;
+}
+
+.aboutus-div {
+    display: flex;
+}
+
+.vison-div{
+    display: flex;
+}
+
+.vison-title{
+    text-align: right;
+    font-family: 'couture';
+    margin-right: 20px;
+}
+
+.misson-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.mission-title{
+    font-family: 'couture';
+}
+
+.contrast-mode .aboutus-page{
+    color: black;
+    background-color: white;
+}

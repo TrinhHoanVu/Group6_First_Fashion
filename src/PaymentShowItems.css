@@ -1,0 +1,51 @@
+.payment-table-all{
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    
+}
+
+.table-payment {
+    display: flex;
+    text-align: left;
+    font-family: 'lato-regular';
+}
+
+.img-div-payment {
+    background-color: white;
+    width: 100px;
+    height: 130px;
+    overflow: hidden;
+}
+
+.image2 {
+    max-width: 100%;
+    height: auto;
+}
+
+.name-div-payment {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.payment-product{
+    margin-bottom: auto;
+}
+
+.payment-quantity2{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.payment-price{
+    margin-top: auto;
+}
+
+.shoppingbag-table-totalprice2{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,43 @@
+{
+    "JUSTFORYOU": [
+      {"id": "Hermes_Shoes2", "name": "Hermes Chaine d'Ancre Shoes", "image": "/giay/ghm2.png", "price": "570"},
+      {"id": "Hermes_Perfume4", "name": "Hermes Voyage d'Hermes Eau de Toilette", "image": "/sanpham/hm4.png", "price": "340"},
+      {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "/ao/aohm3.png", "price": "590"},
+      {"id": "Hermes_Shoes6", "name": "Hermes Jumping Boots", "image": "/giay/ghm6.png", "price": "640"},
+      {"id": "Hermes_Perfume1", "name": "Hermes Terre d'Hermes Eau de Toilette", "image": "/sanpham/hm1.png", "price": "320"},
+      {"id": "Hermes_Clothes7", "name": "Hermes Trendsetter", "image": "/ao/aohm7.png", "price": "660"},
+      {"id": "Hermes_Shoes8", "name": "Hermes Loafers", "image": "/giay/ghm8.png", "price": "660"},
+      {"id": "Hermes_Clothes5", "name": "Hermes Stylish Top", "image": "/ao/aohm5.png", "price": "620"}
+    ],
+    "Shoes": [
+      {"id": "Hermes_Shoes1", "name": "Hermes Oran Sandals", "image": "/giay/ghm1.png", "price": "550"},
+      {"id": "Hermes_Shoes2", "name": "Hermes Chaine d'Ancre Shoes", "image": "/giay/ghm2.png", "price": "570"},
+      {"id": "Hermes_Shoes3", "name": "Hermes Izmir Sandals", "image": "/giay/ghm3.png", "price": "590"},
+      {"id": "Hermes_Shoes4", "name": "Hermes Oasis Sandals", "image": "/giay/ghm4.png", "price": "600"},
+      {"id": "Hermes_Shoes5", "name": "Hermes Calya Shoes", "image": "/giay/ghm5.png", "price": "620"},
+      {"id": "Hermes_Shoes6", "name": "Hermes Jumping Boots", "image": "/giay/ghm6.png", "price": "640"},
+      {"id": "Hermes_Shoes7", "name": "Hermes Quick Sneakers", "image": "/giay/ghm7.png", "price": "660"},
+      {"id": "Hermes_Shoes8", "name": "Hermes Loafers", "image": "/giay/ghm8.png", "price": "660"}
+    ],
+    "Perfumes": [
+      {"id": "Hermes_Perfume1", "name": "Hermes Terre d'Hermes Eau de Toilette", "image": "/sanpham/hm1.png", "price": "320"},
+      {"id": "Hermes_Perfume2", "name": "Hermes Twilly d'Hermes Eau de Parfum", "image": "/sanpham/hm2.png", "price": "310"},
+      {"id": "Hermes_Perfume3", "name": "Hermes Eau des Merveilles Eau de Toilette", "image": "/sanpham/hm3.png", "price": "330"},
+      {"id": "Hermes_Perfume4", "name": "Hermes Voyage d'Hermes Eau de Toilette", "image": "/sanpham/hm4.png", "price": "340"},
+      {"id": "Hermes_Perfume5", "name": "Hermes Un Jardin sur le Nil Eau de Toilette", "image": "/sanpham/hm5.png", "price": "325"},
+      {"id": "Hermes_Perfume6", "name": "Hermes Jour d'Hermes Eau de Parfum", "image": "/sanpham/hm6.png", "price": "315"},
+      {"id": "Hermes_Perfume7", "name": "Hermes Eau des Merveilles Bleue Eau de Toilette", "image": "/sanpham/hm7.png", "price": "330"},
+      {"id": "Hermes_Perfume8", "name": "Hermes Le Jardin de Monsieur Li Eau de Toilette", "image": "/sanpham/hm8.png", "price": "320"}
+    ],
+    "Clothes": [
+      {"id": "Hermes_Clothes1", "name": "Hermes Beachwear", "image": "/ao/aohm1.png", "price": "550"},
+      {"id": "Hermes_Clothes2", "name": "Hermes Formal Attire", "image": "/ao/aohm2.png", "price": "570"},
+      {"id": "Hermes_Clothes3", "name": "Hermes Signature Jacket", "image": "/ao/aohm3.png", "price": "590"},
+      {"id": "Hermes_Clothes4", "name": "Hermes Oasis Gown", "image": "/ao/aohm4.png", "price": "600"},
+      {"id": "Hermes_Clothes5", "name": "Hermes Stylish Top", "image": "/ao/aohm5.png", "price": "620"},
+      {"id": "Hermes_Clothes6", "name": "Hermes Luxury Coat", "image": "/ao/aohm6.png", "price": "640"},
+      {"id": "Hermes_Clothes7", "name": "Hermes Trendsetter", "image": "/ao/aohm7.png", "price": "660"},
+      {"id": "Hermes_Clothes8", "name": "Hermes Exquisite Dress", "image": "/ao/aohm8.png", "price": "680"}
+    ]
+  }
+  

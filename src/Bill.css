@@ -1,0 +1,128 @@
+.bill-table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    font-family: 'lato-regular';
+    color: white;
+}
+
+.contrast-mode .bill-table {
+    color: black;
+}
+
+.bill-form-card {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    width: 20%;
+    color: white;
+}
+
+.contrast-mode .bill-form-card {
+    background-color: white;
+    color: black;
+}
+
+.bill-form-card:focus {
+    outline: none;
+}
+
+
+
+.bill-form-card-number {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.contrast-mode .bill-form-card-number {
+    color: black;
+    background-color: white
+}
+
+.bill-form-card-number:focus {
+    outline: none;
+}
+
+.bill-form-month {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: white;
+    width: 30%;
+}
+
+.contrast-mode .bill-form-month {
+    color: black;
+    background-color: white;
+}
+
+.bill-form-year {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin-left: 20px;
+}
+
+.contrast-mode .bill-form-year {
+    background-color: white;
+    color: black;
+}
+
+.bill-form-year:focus,
+.bill-form-month:focus {
+    outline: none;
+}
+
+.bill-form-card-securitycode {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+    color: white;
+    width: 50%;
+}
+
+.contrast-mode .bill-form-card-securitycode {
+    background-color: white;
+    color: black;
+}
+
+.bill-form-card-securitycode:focus {
+    outline: none;
+}
+
+.bill-submitbutton {
+    font-family: 'lato-bold';
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 50px;
+    border: none;
+}
+
+.contrast-mode .bill-submitbutton {
+    background-color: black;
+    color: white;
+}
+
+.payment-alert {
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    font-family: 'lato-bold';
+    text-align: center;
+    border-radius: 2px;
+
+}

@@ -1,0 +1,9 @@
+/* ProductList.css */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* This creates space between the product items */
+    padding: 20px;
+  }
+  

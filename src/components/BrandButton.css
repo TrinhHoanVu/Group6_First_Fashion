@@ -1,0 +1,36 @@
+/* BrandButton.css */
+.brand-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .brand-button:hover {
+    background-color: #d5d5d5;
+  }
+  /* BrandButton.css */
+
+.brand-button {
+  padding: 15px 24px; /* Tăng kích thước padding để làm nút lớn hơn */
+  margin: 30px; /* Thêm một chút không gian xung quanh nút */
+  font-size: 16px; /* Tăng kích thước font nếu cần */
+  font-weight: bold; /* Làm cho chữ đậm hơn */
+  color: black; /* Màu chữ */
+  background-color: white; /* Màu nền cho nút */
+  border: none; /* Bỏ viền nếu có */
+  border-radius: 20px; /* Bo góc với bán kính 20px */
+  cursor: pointer; /* Cho biết có thể click */
+  transition: background-color 0.3s ease; /* Hiệu ứng khi hover */
+}
+
+.brand-button:hover {
+  background-color: white; /* Màu nền khi hover */
+}
+
+/* Nếu bạn muốn thêm hiệu ứng khi nút được nhấn */
+.brand-button:active {
+  transform: scale(0.95); /* Làm nút nhỏ lại một chút khi được nhấn */
+}

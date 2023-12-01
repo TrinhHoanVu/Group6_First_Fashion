@@ -1,0 +1,79 @@
+/* ProductItem.css */
+
+/* Các thuộc tính chung cho .product-item */
+.product-item {
+  width: 320px; /* Điều chỉnh kích thước theo nhu cầu của bạn */
+  height: 480px;
+  border: 1px solid #cac8c8;
+  margin: 28px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 24px; /* Bo góc với bán kính 24px */
+  overflow: hidden; /* Đảm bảo nội dung không tràn ra ngoài góc bo tròn */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Thêm hiệu ứng nổi bật */
+  animation: fadeIn 1s ease-in-out; /* Hiệu ứng hiển thị */
+
+  display: flex;
+  flex-direction: column; /* Đảm bảo các thành phần sắp xếp theo hàng dọc */
+  align-items: center;
+}
+
+/* Ảnh sản phẩm */
+.product-item img {
+  width: 300px; /* Điều chỉnh kích thước rộng theo nhu cầu của bạn */
+  height: 350px; /* Điều chỉnh kích thước cao theo nhu cầu của bạn */
+  /* object-fit: cover; Cắt và phủ đầy kích thước đã đặt mà không làm méo ảnh */
+  border-radius: 18px; /* Bo góc cho hình ảnh nếu cần */
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+/* Tiêu đề sản phẩm */
+.product-item h3 {
+  font-family: 'lato-regular';
+  margin: auto;
+  font-size: 1em;
+  color: white;
+  transition: color 0.5s ease-in-out; /* Hiệu ứng màu khi hover */
+}
+
+/* Hover hiệu ứng */
+.product-item:hover {
+  transform: scale(1.03); /* Phóng to sản phẩm khi hover */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Hiệu ứng bóng đổ */
+  transition: transform 1.0s ease-in-out;
+}
+
+/* Hover màu tiêu đề sản phẩm */
+.product-item:hover h3 {
+  color: #ff4081;
+}
+
+
+/* Trong ProductItem.css */
+
+.product-price {
+  font-family: 'lato-bold';
+  font-size:1.5em; /* Điều chỉnh kích thước font nếu cần */
+  color: white; /* Màu sắc cho giá tiền */
+  margin-top: 5px; /* Khoảng cách từ phần trên */
+  margin-bottom: 10px; /* Khoảng cách từ phần dưới */
+  /* Các quy tắc CSS khác nếu cần */
+}
+/* Trong ProductItem.css */
+
+.productitem-addtochart-button{
+  background-color: transparent;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid white;
+  font-family: 'lato-regular';
+}
+
+.contrast-mode .productitem-addtochart-button{
+  border-bottom: 2px solid black;
+  color: black;
+}

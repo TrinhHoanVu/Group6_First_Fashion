@@ -1,0 +1,189 @@
+.contrast-mode .contactus-div{
+    background-color: white;
+}
+
+.contrast-mode .contactus-title,
+.contrast-mode .contactus-small-title,
+.contrast-mode .contactus-phone,
+.contrast-mode .contactus-livechat,
+.contrast-mode .contactus-venue,
+.contrast-mode .contactus-email{
+    color: black;
+}
+
+.contrast-mode .contactus-phone-button,
+.contrast-mode .contactus-email-button{
+    color: white;
+    background-color: black;
+}
+
+.contrast-mode .contactus-hr{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+
+.contactus-title {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    letter-spacing: 10px;
+    font-family: 'couture';
+}
+
+.contactus-div {
+    width: 60%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactus-detail {
+    color: white;
+    font-family: 'lato-regular';
+    text-align: left;
+    padding-left: 10px;
+}
+
+.contactus-small-title {
+    font-size: 130%;
+    text-align: left;
+}
+
+.contactus-hr {
+    border: 1px solid rgba(255, 255, 255, 0.8);
+}
+.contactus-hr2{
+    border: 1px solid red;
+}
+
+.contactus-phone-button {
+    text-align: center;
+    font-family: 'lato-bold';
+    font-size: 100%;
+    width: 20%;
+}
+
+.contactus-phone {
+    font-family: 'lato-regular';
+    font-size: 90%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus-email{
+    font-family: 'lato-regular';
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactus-email-button{
+    width: 20%;
+    font-size: 100%;
+    font-family: 'lato-bold';
+}
+
+.contactus-phone-button,
+.contactus-email-button{
+    height: 40px;
+}
+.contactus-email-box {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.7);
+    width: 35%;
+    height: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0.5px 0.2px 3px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactus-email-form {
+    width: 70%;
+    transform: scale(0.8);
+    align-items: center;
+}
+.contactus-email-titles{
+    font-family: 'couture';
+    font-size: 200%;
+    text-align: center;
+}
+
+.contactus-emailbox-box {
+    width: calc(100% - 20px);
+
+}
+
+.contactus-hr-on-email-box {
+    border: 1px solid rgba(0, 0, 0, 0.7);
+}
+
+.contactus-emailbox-hr {
+    height: 0.2%;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contactus-emailbox-phoneuser {
+    text-align: right;
+    margin-left: 10px;
+    width: calc(61% - 20px);
+}
+
+.contactus-emailbox-submit-button {
+    width: 35%;
+    height: 7%;
+    font-size: 100%;
+    background-color: black;
+    font-family: 'couture';
+    color: white;
+}
+
+
+.contactus-emailbox-select-titles,
+.contactus-emailbox-box,
+.contactus-emailbox-phoneuser
+ {
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.contactus-emailbox-submit-button {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactus-emailbox-select-titles:focus,
+.contactus-emailbox-box:focus,
+.contactus-emailbox-phoneuser:focus {
+    outline: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+
+.contactus-emailbox-select-titles {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.contactus-emailus-alert{
+    background-color: white;
+    width: 25%;
+    height: 25%;
+    position: absolute;
+    top: 37.5%;
+    left: 37.5%;
+    font-family: 'lato-bold';
+    text-align: center;
+    border-radius: 2px;
+}

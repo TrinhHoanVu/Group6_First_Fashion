@@ -1,0 +1,162 @@
+.shoppingbag-background {
+    background-color: black;
+    color: white;
+}
+
+.contrast-mode .shoppingbag-background {
+    background-color: white;
+    color: black;
+}
+
+.shoppingbag-background::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shoppingbag-div {
+    width: 60%;
+    margin: 0 auto;
+    /* background-color: cyan; */
+}
+
+.shoppingbag-title {
+    font-family: 'couture';
+    font-size: 200%;
+    letter-spacing: 10px;
+}
+
+.shoppingbag-text {
+    font-family: 'lato-regular';
+
+}
+
+.shoppingbag-table-totalprice {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 70%;
+}
+
+
+.shoppingbag-pricename {
+    font-family: 'lato-regular';
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+    height: 50px;
+    border-bottom: 1px solid white;
+}
+
+.shoppingbag-pricename2 {
+    font-family: 'lato-bold';
+    text-align: left;
+    vertical-align: middle;
+    padding-left: 20px;
+    height: 50px;
+    font-size: 110%;
+    border-bottom: 1px solid white;
+}
+
+.shoppingbag-pricevalue {
+    text-align: right;
+    padding-right: 20px;
+    vertical-align: middle;
+    border-bottom: 1px solid white;
+}
+
+.shoppingbag-gift-checkout {
+    width: 70%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contrast-mode .shoppingbag-pricename2,
+.contrast-mode .shoppingbag-pricevalue,
+.contrast-mode .shoppingbag-pricename {
+    border: none;
+
+}
+
+.shoppingbag-gift-text {
+    font-family: 'lato-bold';
+    font-size: 110%;
+
+}
+
+.shoppingbag-detail-gift {
+    font-family: 'lato-regular';
+}
+
+.shoppingbag-message-text {
+    width: 50%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.shoppingbag-message-text:focus {
+    outline: none;
+    color: white;
+}
+.contrast-mode .shoppingbag-message-text:focus {
+    color: black;
+}
+.contrast-mode .shoppingbag-message-text{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.shoppingbag-message-clear-button {
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    text-align: right;
+    text-decoration: underline;
+}
+
+.shoppingbag-message-clear-button:focus {
+    outline: none;
+}
+
+.shoppingbag-checkout-button {
+    margin: 0 auto;
+    background-color: white;
+    color: black;
+    width: 45%;
+    height: 50px;
+    font-family: 'lato-bold';
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.contrast-mode .shoppingbag-checkout-button {
+    background-color: black;
+    color: white;
+}
+
+.shoppingbag-continuetoshopping-button {
+    font-family: 'lato-bold';
+    font-size: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.shoppingbag-continuetoshopping-button:hover {
+    text-decoration: underline;
+}
+
+.giftmessage-div {
+    color: white;
+}
+
+.contrast-mode .giftmessage-div {
+    color: black;
+}

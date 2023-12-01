@@ -1,0 +1,35 @@
+/* File: CarouselButtons.css */
+
+.slick-arrow {
+   
+    border-radius: 50%; /* Bo tròn nút */
+    width: 30px; /* Chiều rộng của nút */
+    height: 30px; /* Chiều cao của nút */
+    display: flex; /* Cho phép sử dụng flexbox để căn giữa nội dung */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    z-index: 1; /* Đảm bảo nút ở trên các phần tử khác */
+    
+    
+  }
+  
+  /* Các quy tắc cho nút previous */
+  .slick-prev {
+    left: 10px; /* Khoảng cách từ nút này đến cạnh trái */
+    
+  }
+  
+  /* Các quy tắc cho nút next */
+  .slick-next {
+    right: 10px; /* Khoảng cách từ nút này đến cạnh phải */
+    
+  }
+  
+  /* Tùy chỉnh cho trạng thái hover của nút */
+ 
+
+
+
+.custom-slick-next:before, .custom-slick-prev:before {
+  color: rgb(15, 1, 1); /* Màu mới cho biểu tượng hoặc văn bản */
+}

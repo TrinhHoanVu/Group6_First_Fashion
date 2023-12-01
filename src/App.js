@@ -39,6 +39,12 @@ function App() {
 
   console.log('test2')
   console.log(shoesProduct)
+  console.log(clothesProduct)
+  console.log(perfumeProduct)
+  console.log(chanelProduct)
+  console.log(gucciProduct)
+  console.log(hermesProduct)
+  
   useEffect(() => {
     fetch('./json/HermesProduct.json')
       .then(response => response.json())

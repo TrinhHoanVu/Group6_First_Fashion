@@ -1,0 +1,43 @@
+{
+    "JUSTFORYOU": [
+      {"id": "Gucci_Shoes2", "name": "Gucci Princetown Loafers", "image": "/giay/ggc2.png", "price": "370"},
+      {"id": "Gucci_Perfume4", "name": "Gucci Mémoire d'une Odeur", "image": "/sanpham/nh4.png", "price": "140"},
+      {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "/ao/aogc3.png", "price": "390"},
+      {"id": "Gucci_Shoes6", "name": "Gucci Screener Sneakers", "image": "/giay/ggc6.png", "price": "380"},
+      {"id": "Gucci_Perfume1", "name": "Gucci Bloom Eau de Parfum", "image": "/sanpham/nh1.png", "price": "120"},
+      {"id": "Gucci_Clothes7", "name": "Gucci Leisure Wear", "image": "/ao/aogc7.png", "price": "400"},
+      {"id": "Gucci_Shoes8", "name": "Gucci Dionysus Shoes", "image": "/giay/ggc8.png", "price": "420"},
+      {"id": "Gucci_Clothes5", "name": "Gucci Trendy Blazer", "image": "/ao/aogc5.png", "price": "360"}
+    ],
+    "Shoes": [
+      {"id": "Gucci_Shoes1", "name": "Gucci Ace Sneakers", "image": "/giay/ggc1.png", "price": "350"},
+      {"id": "Gucci_Shoes2", "name": "Gucci Princetown Loafers", "image": "/giay/ggc2.png", "price": "370"},
+      {"id": "Gucci_Shoes3", "name": "Gucci Marmont Shoes", "image": "/giay/ggc3.png", "price": "390"},
+      {"id": "Gucci_Shoes4", "name": "Gucci Rhyton Shoes", "image": "/giay/ggc4.png", "price": "410"},
+      {"id": "Gucci_Shoes5", "name": "Gucci Jordaan Loafers", "image": "/giay/ggc5.png", "price": "360"},
+      {"id": "Gucci_Shoes6", "name": "Gucci Screener Sneakers", "image": "/giay/ggc6.png", "price": "380"},
+      {"id": "Gucci_Shoes7", "name": "Gucci Brixton Loafers", "image": "/giay/ggc7.png", "price": "400"},
+      {"id": "Gucci_Shoes8", "name": "Gucci Dionysus Shoes", "image": "/giay/ggc8.png", "price": "420"}
+    ],
+    "Perfumes": [
+      {"id": "Gucci_Perfume1", "name": "Gucci Bloom Eau de Parfum", "image": "/sanpham/nh1.png", "price": "120"},
+      {"id": "Gucci_Perfume2", "name": "Gucci Guilty Eau de Toilette", "image": "/sanpham/nh2.png", "price": "130"},
+      {"id": "Gucci_Perfume3", "name": "Gucci Flora Gorgeous Gardenia", "image": "/sanpham/nh3.png", "price": "110"},
+      {"id": "Gucci_Perfume4", "name": "Gucci Mémoire d'une Odeur", "image": "/sanpham/nh4.png", "price": "140"},
+      {"id": "Gucci_Perfume5", "name": "Gucci Bloom Nettare di Fiori", "image": "/sanpham/nh5.png", "price": "125"},
+      {"id": "Gucci_Perfume6", "name": "Gucci Guilty Love Edition Eau de Parfum", "image": "/sanpham/nh6.png", "price": "115"},
+      {"id": "Gucci_Perfume7", "name": "Gucci Bamboo Eau de Parfum", "image": "/sanpham/nh7.png", "price": "130"},
+      {"id": "Gucci_Perfume8", "name": "Gucci Bloom Acqua di Fiori", "image": "/sanpham/nh8.png", "price": "120"}
+    ],
+    "Clothes": [
+      {"id": "Gucci_Clothes1", "name": "Gucci Urban Jacket", "image": "/ao/aogc1.png", "price": "350"},
+      {"id": "Gucci_Clothes2", "name": "Gucci Classic Suit", "image": "/ao/aogc2.png", "price": "370"},
+      {"id": "Gucci_Clothes3", "name": "Gucci Summer Dress", "image": "/ao/aogc3.png", "price": "390"},
+      {"id": "Gucci_Clothes4", "name": "Gucci Runway Coat", "image": "/ao/aogc4.png", "price": "410"},
+      {"id": "Gucci_Clothes5", "name": "Gucci Trendy Blazer", "image": "/ao/aogc5.png", "price": "360"},
+      {"id": "Gucci_Clothes6", "name": "Gucci Night Outfit", "image": "/ao/aogc6.png", "price": "380"},
+      {"id": "Gucci_Clothes7", "name": "Gucci Leisure Wear", "image": "/ao/aogc7.png", "price": "400"},
+      {"id": "Gucci_Clothes8", "name": "Gucci Signature Suit", "image": "/ao/aogc8.png", "price": "420"}
+    ]
+  }
+  

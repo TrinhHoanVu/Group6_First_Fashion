@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "./static/css/main.628d3904.css",
+    "main.js": "./static/js/main.1e10c779.js",
+    "static/js/787.82f9c063.chunk.js": "./static/js/787.82f9c063.chunk.js",
+    "static/media/chanelbanner2.jpg": "./static/media/chanelbanner2.eadfc289e4a3b31f8243.jpg",
+    "static/media/guccibanner.jpg": "./static/media/guccibanner.2e9ef0de124b12cc86d4.jpg",
+    "static/media/hermesbanner2.jpg": "./static/media/hermesbanner2.5e4059352e8cdf7c806f.jpg",
+    "static/media/lato-bold-webfont.woff": "./static/media/lato-bold-webfont.d25c9b4d36f60fb84315.woff",
+    "static/media/lato-regular-webfont.woff": "./static/media/lato-regular-webfont.0e8b950a0f32b276d834.woff",
+    "static/media/couture-bldit-webfont.woff": "./static/media/couture-bldit-webfont.c76887d52810ee51ee60.woff",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.628d3904.css.map": "./static/css/main.628d3904.css.map",
+    "main.1e10c779.js.map": "./static/js/main.1e10c779.js.map",
+    "787.82f9c063.chunk.js.map": "./static/js/787.82f9c063.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.628d3904.css",
+    "static/js/main.1e10c779.js"
+  ]
+}

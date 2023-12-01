@@ -1,0 +1,47 @@
+{
+    "JUSTFORYOU": [
+        {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "/giay/gcn1.png", "price": "450"},
+        {"id": "Chanel_Shoes2", "name": "Chanel Boy Shoes", "image": "/giay/gcn2.png", "price": "470"},
+        {"id": "Chanel_Shoes3", "name": "Chanel Gabrielle Shoes", "image": "/giay/gcn3.png", "price": "490"},
+        {"id": "Chanel_Shoes4", "name": "Chanel 19 Shoes", "image": "/giay/gcn4.png", "price": "510"},
+        {"id": "Gucci_Shoes1", "name": "Gucci Ace Sneakers", "image": "/giay/ggc1.png", "price": "350"},
+        {"id": "Gucci_Shoes2", "name": "Gucci Princetown Loafers", "image": "/giay/ggc2.png", "price": "370"},
+        {"id": "Gucci_Shoes3", "name": "Gucci Marmont Shoes", "image": "/giay/ggc3.png", "price": "390"},
+        {"id": "Gucci_Shoes4", "name": "Gucci Rhyton Shoes", "image": "/giay/ggc4.png", "price": "410"},
+        {"id": "Hermes_Shoes1", "name": "Hermes Oran Sandals", "image": "/giay/ghm1.png", "price": "550"},
+        {"id": "Hermes_Shoes2", "name": "Hermes Chaine d'Ancre Shoes", "image": "/giay/ghm2.png", "price": "570"},
+        {"id": "Hermes_Shoes3", "name": "Hermes Izmir Sandals", "image": "/giay/ghm3.png", "price": "590"},
+        {"id": "Hermes_Shoes4", "name": "Hermes Oasis Sandals", "image": "/giay/ghm4.png", "price": "600"}
+    ],
+    "Gucci": [
+        {"id": "Gucci_Shoes1", "name": "Gucci Ace Sneakers", "image": "/giay/ggc1.png", "price": "350"},
+        {"id": "Gucci_Shoes2", "name": "Gucci Princetown Loafers", "image": "/giay/ggc2.png", "price": "370"},
+        {"id": "Gucci_Shoes3", "name": "Gucci Marmont Shoes", "image": "/giay/ggc3.png", "price": "390"},
+        {"id": "Gucci_Shoes4", "name": "Gucci Rhyton Shoes", "image": "/giay/ggc4.png", "price": "410"},
+        {"id": "Gucci_Shoes5", "name": "Gucci Jordaan Loafers", "image": "/giay/ggc5.png", "price": "360"},
+        {"id": "Gucci_Shoes6", "name": "Gucci Screener Sneakers", "image": "/giay/ggc6.png", "price": "380"},
+        {"id": "Gucci_Shoes7", "name": "Gucci Brixton Loafers", "image": "/giay/ggc7.png", "price": "400"},
+        {"id": "Gucci_Shoes8", "name": "Gucci Dionysus Shoes", "image": "/giay/ggc8.png", "price": "420"}
+    ],
+    "Chanel": [
+        {"id": "Chanel_Shoes1", "name": "Chanel Classic Flap Shoes", "image": "/giay/gcn1.png", "price": "450"},
+        {"id": "Chanel_Shoes2", "name": "Chanel Boy Shoes", "image": "/giay/gcn2.png", "price": "470"},
+        {"id": "Chanel_Shoes3", "name": "Chanel Gabrielle Shoes", "image": "/giay/gcn3.png", "price": "490"},
+        {"id": "Chanel_Shoes4", "name": "Chanel 19 Shoes", "image": "/giay/gcn4.png", "price": "510"}, 
+        {"id": "Chanel_Shoes5", "name": "Chanel Slingback Shoes", "image": "/giay/gcn5.png", "price": "520"},
+        {"id": "Chanel_Shoes6", "name": "Chanel Espadrilles", "image": "/giay/gcn6.png", "price": "540"},
+        {"id": "Chanel_Shoes7", "name": "Chanel Dad Sandals", "image": "/giay/gcn7.png", "price": "560"},
+        {"id": "Chanel_Shoes8", "name": "Chanel Loafers", "image": "/giay/gcn8.png", "price": "580"}
+    ],
+    "Hermes": [  
+        {"id": "Hermes_Shoes1", "name": "Hermes Oran Sandals", "image": "/giay/ghm1.png", "price": "550"},
+        {"id": "Hermes_Shoes2", "name": "Hermes Chaine d'Ancre Shoes", "image": "/giay/ghm2.png", "price": "570"},
+        {"id": "Hermes_Shoes3", "name": "Hermes Izmir Sandals", "image": "/giay/ghm3.png", "price": "590"},
+        {"id": "Hermes_Shoes4", "name": "Hermes Oasis Sandals", "image": "/giay/ghm4.png", "price": "600"},
+        {"id": "Hermes_Shoes5", "name": "Hermes Calya Shoes", "image": "/giay/ghm5.png", "price": "620"},
+        {"id": "Hermes_Shoes6", "name": "Hermes Jumping Boots", "image": "/giay/ghm6.png", "price": "640"},
+        {"id": "Hermes_Shoes7", "name": "Hermes Quick Sneakers", "image": "/giay/ghm7.png", "price": "660"},
+        {"id": "Hermes_Shoes8", "name": "Hermes Loafers", "image": "/giay/ghm8.png", "price": "660"}
+        
+    ]
+}

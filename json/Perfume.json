@@ -1,0 +1,43 @@
+{
+  "JUSTFORYOU": [
+    {"id": "Chanel_Perfume1", "name": "Chanel Coco Mademoiselle Eau de Parfum", "image": "/sanpham/cn1.png", "price": "220"},
+    {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "/sanpham/cn2.png", "price": "240"},
+    {"id": "Chanel_Perfume3", "name": "Chanel No.5 Eau de Parfum", "image": "/sanpham/cn3.png", "price": "230"},
+    {"id": "Chanel_Perfume4", "name": "Chanel Gabrielle Eau de Parfum", "image": "/sanpham/cn4.png", "price": "250"},
+    {"id": "Gucci_Perfume1", "name": "Gucci Bloom Eau de Parfum", "image": "/sanpham/nh1.png", "price": "120"},
+    {"id": "Gucci_Perfume2", "name": "Gucci Guilty Eau de Toilette", "image": "/sanpham/nh2.png", "price": "130"},
+    {"id": "Hermes_Perfume1", "name": "Hermes Terre d'Hermes Eau de Toilette", "image": "/sanpham/hm1.png", "price": "320"},
+    {"id": "Hermes_Perfume2", "name": "Hermes Twilly d'Hermes Eau de Parfum", "image": "/sanpham/hm2.png", "price": "310"},
+    {"id": "Hermes_Perfume3", "name": "Hermes Eau des Merveilles Eau de Toilette", "image": "/sanpham/hm3.png", "price": "330"}
+  ],
+  "Gucci": [
+    {"id": "Gucci_Perfume1", "name": "Gucci Bloom Eau de Parfum", "image": "/sanpham/nh1.png", "price": "120"},
+    {"id": "Gucci_Perfume2", "name": "Gucci Guilty Eau de Toilette", "image": "/sanpham/nh2.png", "price": "130"},
+    {"id": "Gucci_Perfume3", "name": "Gucci Flora Gorgeous Gardenia", "image": "/sanpham/nh3.png", "price": "110"},
+    {"id": "Gucci_Perfume4", "name": "Gucci Mémoire d'une Odeur", "image": "/sanpham/nh4.png", "price": "140"},
+    {"id": "Gucci_Perfume5", "name": "Gucci Bloom Nettare di Fiori", "image": "/sanpham/nh5.png", "price": "125"},
+    {"id": "Gucci_Perfume6", "name": "Gucci Guilty Love Edition Eau de Parfum", "image": "/sanpham/nh6.png", "price": "115"},
+    {"id": "Gucci_Perfume7", "name": "Gucci Bamboo Eau de Parfum", "image": "/sanpham/nh7.png", "price": "130"},
+    {"id": "Gucci_Perfume8", "name": "Gucci Bloom Acqua di Fiori", "image": "/sanpham/nh8.png", "price": "120"}
+  ],
+  "Chanel": [
+    {"id": "Chanel_Perfume1", "name": "Chanel Coco Mademoiselle Eau de Parfum", "image": "/sanpham/cn1.png", "price": "220"},
+    {"id": "Chanel_Perfume2", "name": "Chanel Chance Eau Tendre Eau de Toilette", "image": "/sanpham/cn2.png", "price": "240"},
+    {"id": "Chanel_Perfume3", "name": "Chanel No.5 Eau de Parfum", "image": "/sanpham/cn3.png", "price": "230"},
+    {"id": "Chanel_Perfume4", "name": "Chanel Gabrielle Eau de Parfum", "image": "/sanpham/cn4.png", "price": "250"},
+    {"id": "Chanel_Perfume5", "name": "Chanel Bleu de Chanel Eau de Parfum", "image": "/sanpham/cn5.png", "price": "260"},
+    {"id": "Chanel_Perfume6", "name": "Chanel Allure Homme Sport Eau de Toilette", "image": "/sanpham/cn3.png", "price": "225"},
+    {"id": "Chanel_Perfume7", "name": "Chanel Coco Noir Eau de Parfum", "image": "/sanpham/cn2.png", "price": "235"},
+    {"id": "Chanel_Perfume8", "name": "Chanel Chance Eau Vive Eau de Toilette", "image": "/sanpham/cn5.png", "price": "245"}
+  ],
+  "Hermes": [
+    {"id": "Hermes_Perfume1", "name": "Hermes Terre d'Hermes Eau de Toilette", "image": "/sanpham/hm1.png", "price": "320"},
+    {"id": "Hermes_Perfume2", "name": "Hermes Twilly d'Hermes Eau de Parfum", "image": "/sanpham/hm2.png", "price": "310"},
+    {"id": "Hermes_Perfume3", "name": "Hermes Eau des Merveilles Eau de Toilette", "image": "/sanpham/hm3.png", "price": "330"},
+    {"id": "Hermes_Perfume4", "name": "Hermes Voyage d'Hermes Eau de Toilette", "image": "/sanpham/hm4.png", "price": "340"},
+    {"id": "Hermes_Perfume5", "name": "Hermes Un Jardin sur le Nil Eau de Toilette", "image": "/sanpham/hm5.png", "price": "325"},
+    {"id": "Hermes_Perfume6", "name": "Hermes Jour d'Hermes Eau de Parfum", "image": "/sanpham/hm6.png", "price": "315"},
+    {"id": "Hermes_Perfume7", "name": "Hermes Eau des Merveilles Bleue Eau de Toilette", "image": "/sanpham/hm7.png", "price": "330"},
+    {"id": "Hermes_Perfume8", "name": "Hermes Le Jardin de Monsieur Li Eau de Toilette", "image": "/sanpham/hm8.png", "price": "320"}
+  ]
+}

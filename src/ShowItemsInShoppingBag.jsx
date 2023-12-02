@@ -15,7 +15,7 @@ function ShowItemsInShoppingBag({ cartItems, onRemove, onUpdateCartQuantity, ite
           </td>
           <td className='name-div'>
             <span className='name-product'>{cartItems.name}</span> <br />
-            <span className='removebutton-on-shoppingbag' onClick={() => {
+            <span className={`removebutton-on-shoppingbag ${clicked ? 'clicked' : ''}`} onClick={() => {
               console.log("Item to remove:", item);
               onRemove(item);
             }}>

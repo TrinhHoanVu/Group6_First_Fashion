@@ -154,13 +154,15 @@
 }
 
 .contrast-mode .login-password-box:focus,
-.contrast-mode .login-email-box:focus{
+.contrast-mode .login-email-box:focus {
   color: black;
 }
+
 .contrast-mode .login-password-box,
-.contrast-mode .login-email-box{
+.contrast-mode .login-email-box {
   color: black;
 }
+
 .home-navtool-hr {
   height: 1px;
   background-color: white;
@@ -407,16 +409,24 @@
   border-radius: 2px;
 }
 
-.contrast-mode .register-password-validation{
+.contrast-mode .register-password-validation {
   color: black;
 }
 
-.empty-text{
+.empty-text {
   font-family: 'lato-regular';
   color: white;
   text-align: center;
 }
 
-.contrast-mode .empty-text{
+.contrast-mode .empty-text {
   color: black;
+}
+
+@media screen and (max-width: 529px) {
+  .App {
+    background-color: blue;
+    text-align: center;
+  
+  }
 }

@@ -44,7 +44,7 @@ function App() {
   console.log(chanelProduct)
   console.log(gucciProduct)
   console.log(hermesProduct)
-  
+
   useEffect(() => {
     fetch('./json/HermesProduct.json')
       .then(response => response.json())
@@ -94,7 +94,7 @@ function App() {
       .then(response => response.json())
       .then(data => setAllProducts(data));
   }, []);
-  
+
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (products) => {
     const exits = cartItems.find((x) => x.id === products.id)
@@ -133,6 +133,9 @@ function App() {
 
   const setGiftMessageOnServer = (text) => {
     setGiftMessage(text)
+  }
+  const clearCartItems = () => {
+    setCartItems([]);
   }
   console.log(giftMessage)
 
@@ -181,7 +184,7 @@ function App() {
           <Route path='/contactus' element={<ContactUs />}></Route>
           <Route path='/account' element={<Account showLoginForm={showLoginForm} />}></Route>
           <Route path='/cart' element={<ShoppingBag cartItems={cartItems} onUpdateCartQuantity={updateCartQuantity} onRemove={onRemove} setGiftMessageOnServer={setGiftMessageOnServer} />}></Route>
-          <Route path='/payment' element={<Payment cartItems={cartItems} giftMessage={giftMessage} />}></Route>
+          <Route path='/payment' element={<Payment cartItems={cartItems} giftMessage={giftMessage} clearCartItems={clearCartItems} />}></Route>
           <Route path='/:id' element={<ProductDetail onAdd={onAdd} />}></Route>
           <Route path='/aboutus' element={<AboutUs />}></Route>
         </Routes>

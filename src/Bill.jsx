@@ -8,7 +8,7 @@ import { useNavigate } from 'react-router-dom'
 import { MdCheckCircle } from "react-icons/md";
 
 
-function Bill(clicked) {
+function Bill({ clicked, clearCartItems }) {
     const navigate = useNavigate();
     const [openModals, setOpenModals] = useState(false);
     const handleModal = () => {
@@ -16,6 +16,7 @@ function Bill(clicked) {
     }
     const handleCloseModal = () => {
         setOpenModals(false);
+        clearCartItems();
         navigate('/');
     }
     const formik = useFormik({
@@ -26,7 +27,8 @@ function Bill(clicked) {
         },
         onSubmit: (values, { setSubmitting }) => {
             if (formik.isValid) {
-                handleModal()
+                handleModal();
+                
             }
             setSubmitting(false);
         },
@@ -111,11 +113,10 @@ function Bill(clicked) {
             <Modal open={openModals} onClose={handleCloseModal}>
                 <Box className={`payment-alert`}>
                     <br /><br />
-                    <div style={{display:'flex',flexDirection:'column',alignItems:'center'}}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
                         <MdCheckCircle style={{ fontSize: '400%' }} />
                         <span>SUCCESSFUL PAYMENT</span>
                     </div>
-
                 </Box>
             </Modal>
         </div>

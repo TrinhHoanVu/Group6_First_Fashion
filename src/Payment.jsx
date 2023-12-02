@@ -11,7 +11,7 @@ import { FaCcVisa } from "react-icons/fa6";
 
 
 
-function Payment({ cartItems, clicked, giftMessage }) {
+function Payment({ cartItems, clicked, giftMessage, clearCartItems }) {
     const navigate = useNavigate();
     const [totalPrice, setTotalPrice] = useState(0);
     const shippingPrice = totalPrice > 2000 ? 0 : 20;
@@ -49,7 +49,7 @@ function Payment({ cartItems, clicked, giftMessage }) {
                         </div>
                         <hr className={`delivery-hr`} /> <br />
                     </div>
-                    {openBill && <Bill />}
+                    {openBill && <Bill clearCartItems={clearCartItems} />}
                 </div>
                 <div style={{ width: '30%', fontFamily: 'lato-regular' }} className={`payment-ordersummary-table ${clicked ? 'clicked' : ''}`}>
                     <div style={{ display: 'flex' }}>

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.628d3904.css",
-    "main.js": "./static/js/main.131bbc22.js",
+    "main.css": "./static/css/main.652dfbed.css",
+    "main.js": "./static/js/main.938ceaea.js",
     "static/js/787.82f9c063.chunk.js": "./static/js/787.82f9c063.chunk.js",
     "static/media/chanelbanner2.jpg": "./static/media/chanelbanner2.eadfc289e4a3b31f8243.jpg",
     "static/media/guccibanner.jpg": "./static/media/guccibanner.2e9ef0de124b12cc86d4.jpg",
@@ -14,12 +14,12 @@
     "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
     "index.html": "./index.html",
-    "main.628d3904.css.map": "./static/css/main.628d3904.css.map",
-    "main.131bbc22.js.map": "./static/js/main.131bbc22.js.map",
+    "main.652dfbed.css.map": "./static/css/main.652dfbed.css.map",
+    "main.938ceaea.js.map": "./static/js/main.938ceaea.js.map",
     "787.82f9c063.chunk.js.map": "./static/js/787.82f9c063.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.628d3904.css",
-    "static/js/main.131bbc22.js"
+    "static/css/main.652dfbed.css",
+    "static/js/main.938ceaea.js"
   ]
 }

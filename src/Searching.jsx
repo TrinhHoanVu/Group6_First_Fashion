@@ -14,11 +14,11 @@ const Searching = ({ handleCloseModal, clicked }) => {
 
   useEffect(() => {
     // Tải dữ liệu sản phẩm
-    fetch('/json/search.json')
+    fetch('./json/search.json')
       .then(response => response.json())
       .then(data => setProductsData(data));
   }, []);
-
+  console.log(productsData)
   useEffect(() => {
     if (searchTerm) {
       const searchTerms = searchTerm.toLowerCase().split(' ');

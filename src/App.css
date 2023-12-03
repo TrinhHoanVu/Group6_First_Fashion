@@ -422,11 +422,3 @@
 .contrast-mode .empty-text {
   color: black;
 }
-
-@media screen and (max-width: 529px) {
-  .App {
-    background-color: blue;
-    text-align: center;
-  
-  }
-}

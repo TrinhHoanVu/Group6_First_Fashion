@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import './Searching.css';
+import { useNavigate } from 'react-router-dom';
 
-const Searching = () => {
+const Searching = ({ handleCloseModal, clicked }) => {
+  const navigate = useNavigate();
   const [productsData, setProductsData] = useState({});
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
+  const handleProductClick = (product) => {
+    navigate(`${product.id}`)
+    handleCloseModal()
+  }
 
   useEffect(() => {
     // Tải dữ liệu sản phẩm
@@ -20,7 +26,7 @@ const Searching = () => {
       Object.keys(productsData).forEach(category => {
         const filteredProducts = productsData[category].filter(product =>
           searchTerms.every(term =>
-            product.name.toLowerCase().includes(term) || 
+            product.name.toLowerCase().includes(term) ||
             product.id.toLowerCase().includes(term)
           )
         );
@@ -31,26 +37,26 @@ const Searching = () => {
       setSearchResults([]);
     }
   }, [searchTerm, productsData]);
-  
+
 
   return (
     <div>
-      <input 
-        type="text" 
-        className="search-input"
-        placeholder="SEARCH" 
+      <input
+        type="text"
+        className={`search-input ${clicked ? 'clicked' : ''}`}
+        placeholder="SEARCH"
         value={searchTerm}
-        style={{textAlign:'center'}}
-        onChange={(e) => setSearchTerm(e.target.value)} 
+        style={{ textAlign: 'center' }}
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
       <div>
         <br />
         {searchResults.map(product => (
-          <div key={product.id} className="search-result">
+          <div key={product.id} className={`search-result ${clicked ? 'clicked' : ''}`} onClick={() => handleProductClick(product)}>
             <img src={product.image} alt={product.name} />
-            <div className="search-result-info">
-              <div className="product-name">{product.name}</div>
-              <div className="product-price2">{product.price}</div>
+            <div className={`search-result-info ${clicked ? 'clicked' : ''}`}>
+              <div className={`product-name ${clicked ? 'clicked' : ''}`}>{product.name}</div>
+              <div className={`product-price2 ${clicked ? 'clicked' : ''}`}>{product.price}</div>
             </div>
           </div>
         ))}

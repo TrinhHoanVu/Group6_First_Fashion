@@ -33,7 +33,7 @@ function AdvancedButton({ clicked, showLoginForm, onAccountClick, countCartItems
       <Modal open={openModal} onClose={handleCloseModel}>
         <Box className={`searching-box ${clicked ? 'clicked' : ''}`}>
           <div className={`searching-box-close-button ${clicked ? 'clicked' : ''}`} onClick={handleCloseModel}>Close</div>
-          <Searching />
+          <Searching handleCloseModal={handleCloseModel} clicked={clicked}/>
         </Box>
       </Modal>
 

@@ -8,7 +8,7 @@ function ProductComparison({ clicked }) {
   const [selectedProducts, setSelectedProducts] = useState([]); // State để lưu trữ dữ liệu từ tệp JSON
 
   useEffect(() => {
-    fetch('/json/Search1.json')
+    fetch('./json/Search1.json')
       .then(response => response.json())
       .then(data => setProducts(data));
   }, []);

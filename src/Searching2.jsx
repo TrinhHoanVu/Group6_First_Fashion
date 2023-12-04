@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './Searching2.css';
 
-const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
+const Searching2 = ({ onSelectProduct, onRemoveProduct, clicked }) => {
   const [productsData, setProductsData] = useState({});
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -64,4 +64,4 @@ const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
   );
 };
 
-export default Searching;
+export default Searching2;

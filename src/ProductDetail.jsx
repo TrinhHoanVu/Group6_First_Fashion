@@ -52,7 +52,7 @@ function ProductDetail({ onAdd, clicked }) {
                             <span style={{ fontSize: '100%', fontFamily: 'lato-regular' }}>Ref. {item.id}</span> <br /> <br />
                             <span style={{ fontSize: '150%' }}>${item.price}</span>
                             <hr className={`productdetail-hr2 ${clicked ? 'clicked' : ''}`} />
-                            <button className="download" onClick={() => { downloadFileAtURL(`./${item.id}.docx`) }}><PiDownloadSimple /> Download description</button> <br /><br />
+                            <button className="download" onClick={() => { downloadFileAtURL(`./word/${item.id}.docx`) }}><PiDownloadSimple /> Download description</button> <br /><br />
                             <button className={`productdetail-button-addtobag ${clicked ? 'clicked' : ''}`} onClick={handleAddToBag}>ADD TO BAG</button>
                         </div>
                     </td>

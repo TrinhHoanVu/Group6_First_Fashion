@@ -14,7 +14,9 @@ import ShoppingBag from './ShoppingBag';
 import Payment from './Payment';
 import ProductDetail from './ProductDetail';
 import AboutUs from './AboutUs';
-
+import Modal from '@mui/material/Modal';
+import Box from '@mui/material/Box';
+import { MdCheckCircle } from "react-icons/md";
 
 
 
@@ -107,6 +109,7 @@ function App() {
       const newCartItems = [...cartItems, { ...products, qty: 1 }];
       setCartItems(newCartItems);
     }
+    handleModal();
   }
 
   const onRemove = (product) => {
@@ -141,6 +144,13 @@ function App() {
 
   console.log(cartItems);
   console.log(allProducts)
+  const [openModals, setOpenModals] = useState(false);
+  const handleModal = () => {
+    setOpenModals(true)
+  }
+  const handleCloseModal = () => {
+    setOpenModals(false);
+  }
   return (
     <div className={`App ${value ? 'contrast-mode' : ''} ${clicked ? 'clicked' : ''}`}>
 
@@ -189,7 +199,15 @@ function App() {
           <Route path='/aboutus' element={<AboutUs />}></Route>
         </Routes>
       </div>
-
+      < Modal open={openModals} onClose={handleCloseModal} >
+        <Box className={`register-alert`}>
+          <br /><br />
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <MdCheckCircle style={{ fontSize: '400%' }} /> <br />
+            <span>SUCCESSFUL ADD TO BAG</span>
+          </div>
+        </Box>
+      </Modal >
       <Footer clicked={clicked} value={value} />
       <BackToTopButton />
       <ContrastButton isOn={value}

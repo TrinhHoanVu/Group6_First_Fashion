@@ -8,7 +8,7 @@ const Searching2 = ({ onSelectProduct, onRemoveProduct, clicked }) => {
 
   useEffect(() => {
     // Tải dữ liệu sản phẩm
-    fetch('/json/Search1.json')
+    fetch('/json/Search2.json')
       .then(response => response.json())
       .then(data => setProductsData(data));
   }, []);

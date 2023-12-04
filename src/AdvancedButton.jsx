@@ -9,7 +9,7 @@ import Modal from '@mui/material/Modal';
 import Box from '@mui/material/Box';
 import Searching from './Searching';
 import { IoIosGitCompare } from "react-icons/io";
-
+import ProductComparison from './ProductComparison'
 
 
 
@@ -49,11 +49,11 @@ function AdvancedButton({ clicked, showLoginForm, onAccountClick, countCartItems
         </Box>
       </Modal>
 
-      <IoIosGitCompare className={`home-advanced-detail-button ${clicked ? 'clicked' : ''}`} onClick={handleOpenComparisonModal}/>
+      <IoIosGitCompare className={`home-advanced-detail-button ${clicked ? 'clicked' : ''}`} onClick={handleOpenComparisonModal} />
       <Modal open={openComparisonModal} onClose={handleCloseComparisonModal}>
         <Box className={`searching-box ${clicked ? 'clicked' : ''}`}>
           <div className={`searching-box-close-button ${clicked ? 'clicked' : ''}`} onClick={handleCloseComparisonModal}>Close</div>
-          
+          <ProductComparison clicked={clicked} />
         </Box>
       </Modal>
 

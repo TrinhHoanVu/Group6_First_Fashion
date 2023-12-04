@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './Searching.css';
+import './Searching2.css';
 
-const Searching = ({ onSelectProduct, onRemoveProduct }) => {
+const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
   const [productsData, setProductsData] = useState({});
   const [searchTerm, setSearchTerm] = useState('');
   const [searchResults, setSearchResults] = useState([]);
@@ -37,7 +37,7 @@ const Searching = ({ onSelectProduct, onRemoveProduct }) => {
     <div>
       <input 
         type="text" 
-        className="search-input"
+        className={`search-input ${clicked ? 'clicked' : ''}`}
         placeholder="SEARCH" 
         value={searchTerm}
         style={{ textAlign: 'center' }}
@@ -47,11 +47,11 @@ const Searching = ({ onSelectProduct, onRemoveProduct }) => {
         <br />
         <div className="search-results-container">
           {searchResults.map(product => (
-          <div key={product.id} className="search-result">
+          <div key={product.id} className={`search-result ${clicked ? 'clicked' : ''}`}>
             <img src={product.image} alt={product.name} />
             <div className="search-result-info">
-              <div className="product-name">{product.name}</div>
-              <div className="product-price2">{product.price}</div>
+              <div className={`product-name ${clicked ? 'clicked' : ''}`}>{product.name}</div>
+              <div className={`product-price2 ${clicked ? 'clicked' : ''}`}>{product.price}</div>
               <button onClick={() => onSelectProduct(product)}>Add to comparison</button>
               <button onClick={() => onRemoveProduct(product)}>Remove from comparison</button>
             </div>

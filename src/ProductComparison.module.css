@@ -1,101 +1,43 @@
-/* Global Styles */
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font */
-    background-color: var(--secondary-color);
-    color: var(--text-color);
-    margin: 0;
-    padding: 0;
+.productComparisonContainer {
+    background-color: black;
+    padding: 20px;
+    margin: 0 auto;
 }
 
-/* Color Palette */
-:root {
-    --primary-color: #000; /* Deep Black for Elegance */
-    --secondary-color: #fff; /* Crisp White for Clean Look */
-    --text-color: #4a4a4a; /* Soft Black for Readability */
-    --accent-color: #c0c0c0; /* Grey for Subtle Accents */
-}
-
-/* Typography */
-h1, h2, h3 {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    color: var(--primary-color);
-    margin-bottom: 0.5em;
-}
-
-h2 {
-    font-size: 1.5em;
-}
-
-/* Product Comparison Styles */
-.productcomparison {
-    max-width: 1200px;
-    margin: auto;
+.contrast-mode .productComparisonContainer {
+    background-color: white;
     padding: 20px;
 }
 
-.categorysection {
+.comparison-title2{
+    color: yellow;
+}
+
+.categorySection {
     margin-bottom: 30px;
 }
 
-/* Product Card */
-.productdetails {
-    background-color: var(--secondary-color);
-    border: 0px solid var(--accent-color);
+.productDetails {
+    background-color: #f9f9f9;
     border-radius: 8px;
-    overflow: hidden;
     margin: 10px;
-    width: calc(33.333% - 20px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease-in-out;
 }
 
-.productdetails:hover {
+.productDetails:hover {
     transform: translateY(-5px);
 }
 
-.productinfo {
-    padding: 15px;
+.productInfo {
+    margin-top: 10px;
 }
 
-/* Image Styles */
-img {
+.productImage {
     width: 200px;
     height: 300px;
-    display: block;
-    border-radius: 24px;
-    margin-left: 90px;
-}
-
-/* Buttons */
-button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
-    border: none;
-    padding: 10px 20px;
     border-radius: 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
-/* Responsive Design */
-@media (max-width: 1024px) {
-    .productdetails {
-        width: calc(50% - 20px);
-    }
-}
-
-@media (max-width: 768px) {
-    .productdetails {
-        width: calc(100% - 20px);
-    }
-
-    .productcomparison, .categorysection {
-        padding: 10px;
-    }
-}
-.title{
-    text-align: center;
-}
-
-/* Additional Styling as needed */
+/* Thêm các class khác theo nhu cầu */

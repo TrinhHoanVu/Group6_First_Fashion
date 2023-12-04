@@ -35,8 +35,7 @@ function Register(clicked) {
             setSubmitting(false)
         },
         validationSchema: Yup.object().shape({
-            firstname: Yup.string().min(3, 'Too short').required('Required'),
-            lastname: Yup.string().min(3, 'Too short').required('Required'),
+
             email: Yup.string().email('Invalid email').required('Required'),
             password: Yup.string().min(3, 'Too short').required('Required')
         })

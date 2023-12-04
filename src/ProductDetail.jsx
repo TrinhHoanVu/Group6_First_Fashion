@@ -7,16 +7,7 @@ import { PiDownloadSimple } from "react-icons/pi";
 
 
 function ProductDetail({ onAdd, clicked }) {
-    const PDF_FILE_URL = 'http://localhost:3000/file_pdf.pdf'
-    const downloadFileAtURL = (url) => {
-        const fileName = url.split('/').pop();
-        const aTag = document.createElement('a');
-        aTag.href = url;
-        aTag.setAttribute('download', fileName);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-    }
+   
     const id = useParams({});
     const [item, setItem] = useState({});
     useEffect(() => {
@@ -36,6 +27,17 @@ function ProductDetail({ onAdd, clicked }) {
         setOpenDeliveryReturn(!openDeliveryReturn);
         setArrowCall(!arrowCall)
     }
+
+    const downloadFileAtURL = (url) => {
+        const fileName = url.split('/').pop();
+        const aTag = document.createElement('a');
+        aTag.href = url;
+        aTag.setAttribute('download', fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+    }
+    console.log(id)
     return (
         <div>
             <table className={`productdetail-table-item  ${clicked ? 'clicked' : ''}`}>
@@ -50,7 +52,7 @@ function ProductDetail({ onAdd, clicked }) {
                             <span style={{ fontSize: '100%', fontFamily: 'lato-regular' }}>Ref. {item.id}</span> <br /> <br />
                             <span style={{ fontSize: '150%' }}>${item.price}</span>
                             <hr className={`productdetail-hr2 ${clicked ? 'clicked' : ''}`} />
-                            <button className="download" onClick={() => { downloadFileAtURL(PDF_FILE_URL) }}><PiDownloadSimple /> Download description</button> <br /><br />
+                            <button className="download" onClick={() => { downloadFileAtURL(`./${item.id}.docx`) }}><PiDownloadSimple /> Download description</button> <br /><br />
                             <button className={`productdetail-button-addtobag ${clicked ? 'clicked' : ''}`} onClick={handleAddToBag}>ADD TO BAG</button>
                         </div>
                     </td>

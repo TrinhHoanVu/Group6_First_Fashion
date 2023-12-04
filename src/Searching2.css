@@ -7,10 +7,6 @@
     overflow-y: auto;
 }
 
-.searching-box.clicked{
-    background-color: white;
-}
-
 .searching-box-close-button {
     text-align: right;
     margin-right: 20px;
@@ -18,14 +14,11 @@
     color: white;
     cursor: pointer;
 }
-.searching-box-close-button.clicked{
-    color: black;
-}
 
 /* Search.css */
 
 .search-input {
-    font-family: 'lato-bold';
+    font-family: 'couture';
     letter-spacing: 1px;
     width: 50%;
     display: block;
@@ -41,13 +34,6 @@
     color: white;
 }
 
-
-.search-input.clicked{
-    color: black;
-    border-bottom: 2px solid black;
-}
-
-
 .search-input:focus {
     background-color: transparent;
     border-bottom: 5px solid white;
@@ -55,9 +41,6 @@
     transition: border 0.3s ease;
 }
 
-.search-input:focus.clicked {
-    border-bottom: 5px solid black;
-}
 
 
 .search-result {
@@ -73,10 +56,6 @@
     color: white;
     display: flex;
     justify-content: left;
-    cursor: pointer;
-}
-.search-result.clicked{
-    color: black;
 }
 
 .search-result:hover {
@@ -87,11 +66,13 @@
 }
 
 .search-result img {
-    width: 60px;
-    height: 60px;
+    width: 80px; /* Đặt chiều rộng cố định */
+    height: 120px; /* Đặt chiều cao cố định */
     border-radius: 10%;
-    object-fit: cover;
+    object-fit: contain; /* Đảm bảo hình ảnh nằm gọn trong khung mà không bị méo */
+    object-position: center; /* Căn giữa hình ảnh trong khung của nó */
     margin-right: 15px;
+    background-color: #fff; /* Màu nền cho những phần không được hình ảnh chiếm hết */
 }
 
 .search-result-info {
@@ -102,6 +83,21 @@
 .product-name {
     font-size: 18px;
     letter-spacing: 1px;
-    font-family: 'lato-bold';
+    font-family: 'couture';
+}
+
+.search-results-container {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  .product-details img {
+    width: 150px; /* hoặc kích thước bạn muốn */
+    height: 150px; /* hoặc kích thước bạn muốn */
+    object-fit: contain; /* Đảm bảo hình ảnh nằm gọn trong khung mà không bị cắt hoặc méo */
+    border-radius: 15%; /* Làm tròn góc */
+    border: 2px solid var(--primary-color); /* Viền xung quanh hình ảnh */
+    background-color: #fff; /* Màu nền cho khung hình, có thể thay đổi theo ý bạn */
+    display: block; /* Đảm bảo hình ảnh không có khoảng trắng dưới cùng */
+    margin: auto; /* Nếu bạn muốn căn giữa hình ảnh trong khung */
 }
 

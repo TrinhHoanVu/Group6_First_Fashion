@@ -10,7 +10,7 @@
 
 .aboutus-title {
     text-align: left;
-    font-family: 'couture';
+    font-family: 'lato-bold';
     margin-left: 20px;
 }
 
@@ -24,7 +24,7 @@
 
 .vison-title{
     text-align: right;
-    font-family: 'couture';
+    font-family: 'lato-bold';
     margin-right: 20px;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .mission-title{
-    font-family: 'couture';
+    font-family: 'lato-bold';
 }
 
 .contrast-mode .aboutus-page{

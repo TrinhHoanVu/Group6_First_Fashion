@@ -63,14 +63,14 @@
 
 .home-name-company {
   padding-top: 20px;
-  font-family: 'couture';
+  font-family: 'lato-bold';
   color: white;
   letter-spacing: 5px;
 }
 
 .home-nav {
   height: 40px;
-  font-family: 'couture';
+  font-family: 'lato-bold';
   text-align: center;
   display: flex;
   justify-content: center;
@@ -137,7 +137,7 @@
 
 
 .home-chanelbanner-title {
-  font-family: 'couture';
+  font-family: 'lato-bold';
   position: relative;
   margin: auto;
   color: white;

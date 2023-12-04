@@ -27,7 +27,7 @@
     margin-right: auto;
     color: white;
     letter-spacing: 10px;
-    font-family: 'couture';
+    font-family: 'lato-bold';
 }
 
 .contactus-div {
@@ -114,7 +114,7 @@
     align-items: center;
 }
 .contactus-email-titles{
-    font-family: 'couture';
+    font-family: 'lato-bold';
     font-size: 200%;
     text-align: center;
 }
@@ -145,7 +145,7 @@
     height: 7%;
     font-size: 100%;
     background-color: black;
-    font-family: 'couture';
+    font-family: 'lato-bold';
     color: white;
 }
 

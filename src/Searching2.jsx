@@ -12,7 +12,7 @@ const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
       .then(response => response.json())
       .then(data => setProductsData(data));
   }, []);
-
+  console.log(productsData)
   useEffect(() => {
     if (searchTerm) {
       const searchTerms = searchTerm.toLowerCase().split(' ');
@@ -20,7 +20,7 @@ const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
       Object.keys(productsData).forEach(category => {
         const filteredProducts = productsData[category].filter(product =>
           searchTerms.every(term =>
-            product.name.toLowerCase().includes(term) || 
+            product.name.toLowerCase().includes(term) ||
             product.id.toLowerCase().includes(term)
           )
         );
@@ -31,34 +31,34 @@ const Searching = ({ onSelectProduct, onRemoveProduct, clicked }) => {
       setSearchResults([]);
     }
   }, [searchTerm, productsData]);
-  
+
 
   return (
     <div>
-      <input 
-        type="text" 
+      <input
+        type="text"
         className={`search-input ${clicked ? 'clicked' : ''}`}
-        placeholder="SEARCH" 
+        placeholder="SEARCH"
         value={searchTerm}
         style={{ textAlign: 'center' }}
-        onChange={(e) => setSearchTerm(e.target.value)} 
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
       <div>
         <br />
         <div className="search-results-container">
           {searchResults.map(product => (
-          <div key={product.id} className={`search-result ${clicked ? 'clicked' : ''}`}>
-            <img src={product.image} alt={product.name} />
-            <div className="search-result-info">
-              <div className={`product-name ${clicked ? 'clicked' : ''}`}>{product.name}</div>
-              <div className={`product-price2 ${clicked ? 'clicked' : ''}`}>{product.price}</div>
-              <button onClick={() => onSelectProduct(product)}>Add to comparison</button>
-              <button onClick={() => onRemoveProduct(product)}>Remove from comparison</button>
+            <div key={product.id} className={`search-result ${clicked ? 'clicked' : ''}`}>
+              <img src={product.image} alt={product.name} />
+              <div className="search-result-info">
+                <div className={`product-name ${clicked ? 'clicked' : ''}`}>{product.name}</div>
+                <div className={`product-price2 ${clicked ? 'clicked' : ''}`}>{product.price}</div>
+                <button onClick={() => onSelectProduct(product)}>Add to comparison</button>
+                <button onClick={() => onRemoveProduct(product)}>Remove from comparison</button>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
         </div>
-        
+
       </div>
     </div>
   );

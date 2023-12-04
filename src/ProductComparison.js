@@ -8,11 +8,11 @@ function ProductComparison({ clicked }) {
   const [selectedProducts, setSelectedProducts] = useState([]); // State để lưu trữ dữ liệu từ tệp JSON
 
   useEffect(() => {
-    fetch('/json/search.json')
+    fetch('/json/Search1.json')
       .then(response => response.json())
       .then(data => setProducts(data));
   }, []);
-
+  console.log(products)
   const handleProductSelect = (product) => {
     addProductToComparison(product);
   };
@@ -43,8 +43,8 @@ function ProductComparison({ clicked }) {
 
   return (
     <div className={`productComparisonContainer ${clicked ? 'clicked' : ''}`}>
-      <Searching2 onSelectProduct={handleProductSelect} onRemoveProduct={handleProductRemove} clicked={clicked}/>
-  
+      <Searching2 onSelectProduct={handleProductSelect} onRemoveProduct={handleProductRemove} clicked={clicked} />
+
       <div className={styles.productcomparison}>
         {['perfume', 'shoes', 'clothes'].map(category => (
           hasSelectedProductsInCategory(category) && (

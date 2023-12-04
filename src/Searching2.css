@@ -18,7 +18,7 @@
 /* Search.css */
 
 .search-input {
-    font-family: 'labo-bold';
+    font-family: 'lato-bold';
     letter-spacing: 1px;
     width: 50%;
     display: block;
@@ -97,7 +97,7 @@
 .product-name {
     font-size: 18px;
     letter-spacing: 1px;
-    font-family: 'labo-bold';
+    font-family: 'lato-bold';
     color: white;
 }
 
